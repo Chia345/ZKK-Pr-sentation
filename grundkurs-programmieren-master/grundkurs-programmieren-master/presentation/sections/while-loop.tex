@@ -1,27 +1,27 @@
 \begin{frame}[fragile]{Die \texttt{while}-Schleife}
-	Umgangssprachlich: Wiederhole den Programmcode solange die Bedingung True ist.
+	Umgangssprachlich:\\
+	Wiederhole den Programmcode solange die Bedingung True ist.
 	Gefahr: Falls immer das gleiche (Bedinung wird nicht verändert) geprüft wird => Schleife ohne Ende
 
     \begin{lstlisting}
 while Bedingung == True:
     # Programmcode
 
-# ausserhalb der Schleife
     \end{lstlisting}
     
     Beispiel zähle bis 3
     \begin{lstlisting}
     i = 1
-    while i < 4:
+    while i <= 3:
     	print(i)
     	i = i+1   
     \end{lstlisting}
    
 \end{frame}
 
-\begin{frame}[fragile]{Hello World}
+\begin{frame}[fragile]{while-Schleife Übung}
 \begin{block}{Aufgabe 1}
-	Schreibe das Programm so um, dass der \texttt{String} `Hello World' mit einer while-Schleife 6-mal auf der Konsole ausgegeben wird.
+	Verändere den Code so, dass der \texttt{String} `Hello World' mit einer while-Schleife 6-mal auf der Konsole ausgegeben wird.
 \end{block}
 \pause{}
 \begin{exampleblock}{Lösung}
@@ -34,16 +34,18 @@ while Bedingung == True:
 \end{exampleblock}
 \end{frame}
 
-\begin{frame}[fragile]{Bis kein Input mehr kommt}
-\begin{block}{Aufgabe 1}
-	Lasse das Programm solange fragen. input("Nerv ich dich? "), bis die Antwort "JA!" lautet. Danach lass das Programm "Schade" ausgeben
+\begin{frame}[fragile]{while-Schleife Übung}
+\begin{block}{Aufgabe 2}
+	Schreibe einen Code, der solange fragt ''Nerv ich dich? '', bis er die Eingabe ''JA!'' erhält.\\
+	Danach lass das Programm ''Schade'' ausgeben.
+	
 \end{block}
 \pause{}
 \begin{exampleblock}{Lösung}
 	\begin{lstlisting}		 
 		inp = input("Nerv ich dich? ")
 		while inp != "JA!":
-			inp = input("Nerv ich dich? ")
+			  inp = input("Nerv ich dich? ")
 		print("Schade")	
 	\end{lstlisting}
 \end{exampleblock}
@@ -53,17 +55,16 @@ while Bedingung == True:
 
 \begin{frame}{Magische Miesmuschel}
 
-	Programmiere die magische Miesmuschel.\\ Sie wartet mit ("Du: ")auf eine Nein/Ja-Frage und beantwortet sie mit einer zufälligen (random) Antwort("MM: Antwort"). Sie beendet wenn sie statt einer Frage "Ich will nicht mehr" erhält. Sie verabschiedet sich mit "Bye"\\
+	Programmiere einen einfachen Bot.\\ 
+	Er wartet mit (''Du: '')auf eine Nein/Ja-Frage und beantwortet sie mit einer zufälligen (random) Antwort(''Bot: '' + Antwort). \\
+	Er fragt so lange nach bis er ''Ich will nicht mehr'' als Eingabe erhält. Er verabschiedet sich mit "Bot: Bye"\\
 	nötig:
 	\begin{itemize}
 		\item input
 		\item while-Schleife
 		\item Bedingung
 		\item random Zahl (soll einer bestimmten Antwort zugeordnet werden)
-	\end{itemize}	
-	%für Codio
-	%import random
-	%zahl = random.randint(Anfang,Ende) <= zb. random.randint(1,3) kann 1,2,3 hervorbringen	
+	\end{itemize}		
 \end{frame}
 
 \begin{frame}[fragile]{Die \texttt{while}-Schleife}
@@ -73,13 +74,13 @@ from random import *
 
 inp = input("Du: ")
 while inp != "Ich will nicht mehr" :
-	zahl = randint(0, 2)
-	if zahl == 1:
-		print("MM: Nein")
+	zahl = randint(0, 1)
+	if zahl == 0:
+		print("Bot: Nein")
 	else:
-		print("MM: Ja")
+		print("Bot: Ja")
 	inp = input("Du: ")
-print("MM: Bye")
+print("Bot: Bye")
 \end{lstlisting}
 \end{exampleblock}
 \end{frame}
