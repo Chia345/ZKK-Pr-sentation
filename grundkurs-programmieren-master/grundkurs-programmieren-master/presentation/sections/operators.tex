@@ -3,8 +3,8 @@
 \begin{frame}[fragile]{Operatoren}
 \begin{itemize}
 	\item Rechenoperatoren 
-	\item vergleichende Operatoren
-	\item logische Operatoren
+	\item Vergleichende Operatoren
+	\item Logische Operatoren
 \end{itemize}
 \end{frame}
 
@@ -20,11 +20,12 @@
 
 %Beispielaufgabe mit print
 \begin{frame}[fragile]{Zahlen und Rechenoperatoren}
+Beachtet auch die Leerzeichen in den Strings!
 \begin{lstlisting}
-print("Ich" + " bin " + str(10) + "Jahre alt")
+print("Ich" + " bin " + str(10) + " Jahre alt") 
 print("Hallo"*2)
 print(2.45 + 3)
-print("Hallo" + "3")
+print("Hallo " + "3")
 print(1/2.5 +2)
 print(3%2)
 print(6%3)
@@ -33,45 +34,45 @@ print(6%3)
 
 
 
-\begin{frame}[fragile]{vergleichende Operatoren}
+\begin{frame}[fragile]{Vergleichende Operatoren}
 Wollen wir aber Datentypen vergleichen, benötigen wir weitere Operatoren.\\
-Diese ergeben immer einen Booleanwert(True/False)\\
+Diese ergeben immer einen Booleanwert (True/False)\\
 
 \begin{itemize}
-\item \texttt{==} prüft zwei Werte auf Gleichheit
-\item \texttt{!=} prüft zwei Werte auf Ungleichheit
-\item \texttt{>} größer (bei Strings wird automatisch die Länge vergleichen)
-\item \texttt{<} kleiner (bei Strings wird automatisch die Länge vergleichen)
-\item \texttt{<=, >=}  kleiner-gleich, größer-gleich (bei Strings wird automatisch die Länge vergleichen)
+\item \textbf{==} prüft zwei Werte auf Gleichheit
+\item \textbf{!=} prüft zwei Werte auf Ungleichheit
+\item \textbf{$>$} größer (bei Strings wird automatisch die Länge vergleichen)
+\item \textbf{$<$} kleiner (bei Strings wird automatisch die Länge vergleichen)
+\item \textbf{$<=$, $>=$}  kleiner-gleich, größer-gleich (bei Strings wird automatisch die Länge vergleichen)
 
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{vergleichende Operatoren}
-Was ergeben folgende Ausdrücke? Überprüfe mit dem Python Interpreter.
+\begin{frame}[fragile]{Vergleichende Operatoren - Übung}
+Was ergeben folgende Ausdrücke? Überprüfe mit  Python.
 
 \begin{lstlisting} 
-3 > 4 
+print(3 > 4) 
 
-6 != 7
+print(6 != 7)
 
-"Hallo" < "Hallo Welt!" 
+print("Hallo" < "Hallo Welt!") 
 
-"Hallo" == "Hallo Welt"
+print("Hallo" == "Hallo Welt")
 
 \end{lstlisting}
 \end{frame}
 
 
 
-\begin{frame}[fragile]{logische Operatoren}
-Vergleichen von zwei Wahrheitswerten(meist auf Grundlage von vergleichenden Operatoren)\\
-Ergibt immer einen Booleanwert(True/False)
+\begin{frame}[fragile]{Logische Operatoren}
+Vergleichen von zwei Wahrheitswerten (meist auf Grundlage von vergleichenden Operatoren)\\
+Ergibt immer einen Booleanwert (True/False)
 
 \begin{itemize}	
-\item \texttt{and}  logisches `Und' (True, wenn beide Seiten wahr sind)
-\item \texttt{or}  logisches `Oder' (True, wenn eine Seite, die andere oder beide wahr sind)
-\item \texttt{not}  verneint einen Ausdruck(Verneinung: aus True wird False, aus False wird True)
+\item \textbf{and}  logisches `Und' (True, wenn beide Seiten wahr sind)
+\item \textbf{or}  logisches `Oder' (True, wenn eine Seite, die andere oder beide wahr sind)
+\item \textbf{not}  verneint einen Ausdruck (Verneinung: aus True wird False, aus False wird True)
 \end{itemize}
 \end{frame}
 
@@ -79,11 +80,11 @@ Ergibt immer einen Booleanwert(True/False)
 Was ergeben folgende Ausdrücke? Überprüfe mit dem Python Interpreter.
 
 \begin{lstlisting} 
-3 > 4 or 6 != 7
+print(3 > 4 or 6 != 7)
 
-"Hallo" < "Hallo Welt!" and 3 > 4
+print("Hallo" < "Hallo Welt!" and 3 > 4)
 
-not( "Hallo" == "Hallo Welt" )
+print(not( "Hallo" == "Hallo Welt"))
 \end{lstlisting}
 \end{frame}
 

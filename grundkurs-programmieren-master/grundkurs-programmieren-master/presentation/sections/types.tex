@@ -1,23 +1,22 @@
 \section{Datentypen}
 
 \begin{frame}[fragile]{Datentypen}
-Inhalt
+Lernziele
 \begin{itemize}
 	\item Die wichtigsten Datentypen kennenlernen
-	\item Mit ihnen arbeiten können
-	\item Sicherheit in der Anwendung gewinnen
+	\item Diese ausgeben können
+	\item Datentypen in andere Datentypen umwandeln
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{Erste wichtige Funktion}
-\begin{itemize}
-	\item print()\\
-	Gibt alles in den () auf die Konsole aus.
-\end{itemize}
+\begin{frame}[fragile]{Erste wichtige Funktion: print()}
+
+	Gibt alles innerhalb den Klammern auf die Konsole aus.
+
 \begin{lstlisting}
 print("Hallo")
 print(1)
-print(1 + "Hallo")
+print(1+2)
 \end{lstlisting}
 \end{frame}
 
@@ -45,18 +44,18 @@ print(1 + "Hallo")
 print("Hello World!")
 \end{lstlisting}
 \begin{itemize}
-	\item gibt den Text (String) `Hello World!' auf der Konsole aus
+	\item gibt den Text (String) ''Hello World!'' aus
 \end{itemize}
 \begin{exampleblock}{Glückwunsch}
-	Ihr habt gerade euer erstes Code-Fragment geschrieben und ausgeführt!
+	Ihr habt gerade euer erstes Codeprogramm geschrieben!
 \end{exampleblock}
 \end{frame}
 
 
 %Einfürhung Integer udn Float
-\begin{frame}[fragile]{Integer und Float}
-\begin{itemize}
-	\item \texttt{Integer, int}: 
+\begin{frame}[fragile]{Zahlen}
+
+	 \texttt{Integer, int}: 
 	\begin{itemize}
 		\item ist eine ganze Zahl
 	\end{itemize}
@@ -66,25 +65,31 @@ print("Hello World!")
 3
 ...
 	\end{lstlisting}
-    \item Gleitkommazahlen (Float, float):
+	 \texttt{Float, float}:
+    	\begin{itemize}
+    	\item ist eine Gleitkommazahl
+    \end{itemize}
     \begin{lstlisting}
 3.1415
 3.0
 -2.3
     \end{lstlisting}
-\end{itemize}
+
 \end{frame}
 
 
 %Einführung Boolean
 \begin{frame}[fragile]{Boolean}
-\begin{itemize}    
-	\item Wahrheitswert (Boolean, bool): 
-\begin{lstlisting}
-wahr = True
-falsch = False
-\end{lstlisting}
+\texttt{Boolean, bool}:
+\begin{itemize}
+	\item Wahrheitswert
 \end{itemize}
+
+\begin{lstlisting}
+True
+False
+\end{lstlisting}
+
 \end{frame}
 
 \begin{frame}[fragile]{Typumwandlung}
@@ -93,17 +98,18 @@ falsch = False
 	\item \lstinline{float(...)}: Castet zu int.
 	\item \lstinline{str(...)}: Castet zu String.
 	
-\end{itemize}	
-\begin{lstlisting}
-5 zu "5"
-"5.0" zu 5.0
-"Hallo" + 5 zu "Hallo 5"
-\end{lstlisting}
+\end{itemize}
+Wandle um und gebe mit print() aus	
+\begin{itemize}
+	\item 5 zu ''5''
+	\item ''5.0'' zu 5.0
+	\item ''Hallo'' + 5 zu ''Hallo 5'' 
+\end{itemize}
 \pause{}
 \begin{lstlisting}
-str(5)
-float("5.0")
-"Hallo" + " " + str(5)
+print(str(5))
+print(float("5.0"))
+print("Hallo" + " " + str(5))
 \end{lstlisting}
 \end{frame}
 
