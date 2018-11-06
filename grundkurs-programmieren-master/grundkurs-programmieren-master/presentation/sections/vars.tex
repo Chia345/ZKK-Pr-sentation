@@ -1,0 +1,135 @@
+\section{Variablen, Zuweisungen und Typumwandlung}
+
+\begin{frame}[fragile]{Zuweisung, Variablen und Typumwandlung}
+\begin{itemize}
+	\item Was sind Zuweisungen und Variablen
+	\item Anwendung
+	\item Nutzen
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Zuweisung}
+\begin{itemize}
+\item Zuweisung von Variablen mit dem Zuweisungsoperator \texttt{=}
+\begin{lstlisting}
+a = 5
+b = 3.14
+c = "Hallo Grundkurs:Programmieren"
+\end{lstlisting}
+\item der Variable kann auch das Ergebnis einer Operation zugewiesen werden
+\begin{lstlisting}
+a = 1000
+b = 200
+percent = b / a * 100
+\end{lstlisting}
+\item immer sinnvoll benennen
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Zuweisung}
+
+	\begin{lstlisting}
+	
+	toprint = "Hallo Grundkurs:Programmieren"
+	print(toprint)
+	Ausgabe:
+	
+	name = 
+	alter =
+	print()
+	Ausgabe soll sein: `name` ist `alter` Jahre alt
+	\end{lstlisting}
+	
+	\pause{}
+	
+	\begin{lstlisting}
+	toprint = "Hallo Grundkurs:Programmieren"
+	print(toprint)
+	Ausgabe: "Hallo Grundkurs:Programmieren"
+	
+	name = Maren
+	alter = 23
+	print(name + " ist " + str(alter) + "Jahre alt")
+	
+		\end{lstlisting}
+	
+
+\end{frame}
+
+
+\begin{frame}[fragile]{= und ==}
+Der Unterschied zwischen = und == ist sehr wichtig.
+\begin{itemize}
+\item == Vergleich beider Seiten; gibt False/True zurück
+\item = ist eine Zuweisung (Lernen wir im nächsten Kapitel kennen)
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{= und ==}
+Welche Ausgabe wird folgende Sequenz bringen?
+	\begin{lstlisting}
+	a = 21
+	b = 21
+	a == b + 1
+	c = a==b
+	print(c)
+	\end{lstlisting}
+\end{frame}
+
+
+%führt Input() ein
+\begin{frame}[fragile]{Eine weitere wichtige Funktion}
+input()
+\begin{itemize}
+\item Liest die letzte Konsolenzeile ein
+\item gibt den Konsoleneintrag als String zurück
+\item input("") Gibt in der Konsole den Inhalt innerhalb der "" aus bevor eingelesen wird.
+\item z.B name = input() 
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Inputaufgabe}   
+\begin{block}{Aufgabe}
+\begin{itemize}
+\item Lasse dich von deinem Programm begrüßen, indem du mit \texttt{input} 
+\item "Hallo, wie heißt du" in der die Konsole ausgibst 
+\item deinen Namen als  
+Eingabe in einer Variable speicherst.
+\item "Hallo " und deinen Namen ausgeben lässt
+\end{itemize}
+\end{block}
+\begin{exampleblock}{Lösung}
+\begin{lstlisting}
+ name = input("Hallo, wie heisst du?")
+'Maren'
+ print("Hallo " + name)
+\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{Inputaufgabe}   
+\begin{block}{Aufgabe}
+	\begin{itemize}
+		\item Lasse dich von deinem Programm begrüßen, indem du mit \texttt{input} 
+		\item "Hallo, wie heißt du" in der die Konsole ausgibst 
+		\item deinen Namen als  
+		Eingabe in einer Variable speicherst.
+		\item Lasse das Programm nach deinem Alter mit ("Wie alt bist du?") fragen
+		\item speichere dieses als Integer in einer Variable
+		\item erhöhe ihn um 1.
+		\item Lasse ausgeben: Du heißt "name" und wirst "alter" Jahre alt
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Inputaufgabe}
+\begin{exampleblock}{Lösung}
+	\begin{lstlisting}
+	name = input("Hallo, wie heisst du? ")
+	alter = int(input("Wie alt bist du? "))
+	alter = alter + 1
+	print("Du heisst " + name + " und wirst " + str(alter) + " Jahre alt")
+	\end{lstlisting}
+\end{exampleblock}
+\end{frame}

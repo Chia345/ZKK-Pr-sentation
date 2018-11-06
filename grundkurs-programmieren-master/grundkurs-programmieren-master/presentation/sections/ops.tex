@@ -1,0 +1,97 @@
+\begin{frame}[fragile]{Operatoren}
+	\begin{itemize}
+		\item Rechenoperatoren 
+		\item vergleichende Operatoren
+	\end{itemize}
+\end{frame}
+
+%Einführung Rechenoperationen
+\begin{frame}[fragile]{Rechenoperatoren}
+\begin{itemize}
+	\item + und -
+	\item * und /
+	\item Modulo \%
+\end{itemize}
+\end{frame}
+
+
+%Beispielaufgabe mit print
+\begin{frame}[fragile]{Zahlen und Rechenoperatoren}
+\begin{lstlisting}
+print(2.45 + 3)
+print("Hallo" + 3)
+print(1/2.5 +2)
+print(3%2)
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]{Typsicherheit}
+\begin{block}{Aufgabe}
+	Gib folgende Ausdrücke in den Python Interpreter ein:
+	\begin{lstlisting}
+	>>> 3 + 3.14
+	>>> "Mein Alter: " + 5
+	>>> True + 1
+	\end{lstlisting}
+\end{block}
+\pause{}
+\begin{exampleblock}{True + 1 == 2?}
+	Intern werden die Keywords \lstinline{True} und \lstinline{False} auf die 
+	Werte \texttt{1} und \texttt{0} vom Typ \texttt{int} abgebildet.
+\end{exampleblock}
+\end{frame}
+
+
+\begin{frame}[fragile]{vergleichende Operatoren}
+Die Operatoren \texttt{+}, \texttt{-}, \texttt{/} oder \texttt{*} verwenden wir intuitiv.\\ Wollen wir aber Datentypen vergleichen, benötigen wir weitere Operatoren.\\
+
+\begin{itemize}
+	\item \texttt{==}: prüft zwei Werte auf Gleichheit
+	\item \texttt{!=}: prüft zwei Werte auf Ungleichheit
+	\item \texttt{>}: größer
+	\item \texttt{<}: kleiner (vgl.\ for-Schleife)
+	\item \texttt{<=, >=}, kleiner-gleich, größer-gleich
+	\item \texttt{and}: logisches `Und'
+	\item \texttt{or}: logisches `Oder'
+	\item \texttt{not}: verneint einen Ausdruck
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{vergleichende Operatoren}
+Die Operatoren \texttt{+}, \texttt{-}, \texttt{/} oder \texttt{*} verwenden wir intuitiv.\\ Wollen wir aber Datentypen vergleichen, benötigen wir weitere Operatoren.\\
+
+\begin{itemize}
+    \item \texttt{==}: prüft zwei Werte auf Gleichheit
+    \item \texttt{!=}: prüft zwei Werte auf Ungleichheit
+    \item \texttt{>}: größer
+    \item \texttt{<}: kleiner (vgl.\ for-Schleife)
+    \item \texttt{<=, >=}, kleiner-gleich, größer-gleich
+    \item \texttt{and}: logisches `Und'
+    \item \texttt{or}: logisches `Oder'
+    \item \texttt{not}: verneint einen Ausdruck
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{= und ==}
+	Der Unterschied zwischen = und == ist sehr wichtig.
+	\begin{itemize}
+		\item == vergleich beide Seiten und gibt False/True zurück
+		\item = ist eine Zuweisung (Lernen wir im nächsten Kapitel kennen)
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{logische Operatoren}
+Was ergeben folgende Ausdrücke? Überprüfe mit dem Python Interpreter.
+
+\begin{lstlisting} 
+3 > 4 
+
+6 != 7
+
+"Hallo" < "Hallo Welt!"
+
+"Hallo" == "Hallo Welt"
+
+"Hallo Welt" == "Hallo" and 3 > 4

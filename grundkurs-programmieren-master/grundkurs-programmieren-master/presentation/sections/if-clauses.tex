@@ -1,0 +1,138 @@
+\section{Bedingte Ausführung}
+
+\begin{frame}[fragile]{Wiederholung}
+	\begin{itemize}
+		\item Vergleich mit Hilfe logischer Operatoren
+		\item Vergleiche als Bedingungen
+		\item Operatoren
+	\begin{itemize}
+		\item \texttt{==}: prüft zwei Werte auf Gleichheit
+		\item \texttt{!=}: prüft zwei Werte auf Ungleichheit
+		\item \texttt{>}: größer
+		\item \texttt{<}: kleiner 
+		\item \texttt{<=, >=}, kleiner-gleich, größer-gleich
+		\item \texttt{and}: logisches `Und'
+		\item \texttt{or}: logisches `Oder'
+		\item \texttt{not}: verneint einen Ausdruck
+	\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}[fragile]{Übung}
+\begin{lstlisting} 
+4 >= 4 
+6 == 7
+3 + 4 != 6 or 3 == 5
+not True
+
+\end{lstlisting}
+\pause{}
+\begin{lstlisting} 
+4 >= 4 True
+6 == 7 False
+3 + 4 != 6 or 3 == 5   True or False => True
+not True False
+
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Bedingte Ausführung}
+Umgangssprachlich: Wenn (if)  \textcolor{red}{Bedingung} True ist dann führe Programmcode 1 aus, andernfalls (else) Programmcode 2\\
+
+\begin{lstlisting}
+if Bedingung == True:
+	F(*ü*)hre Programmcode 1 aus
+else:
+	F(*ü*)hre alternativen Programmcode 2 aus, wenn Bedingung nicht zutrifft
+\end{lstlisting}
+
+\begin{lstlisting}
+zahl = int(input())
+
+if zahl > 10:
+	print("Die Zahl ist > 10.")
+else:
+	print("Die Zahl ist <= 10.")
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Mehrfach bedingte Ausführung}
+Umgangssprachlich: Wenn (if)  \textcolor{red}{Bedingung1} True ist, falls ja führe Programmcode 1 aus, falls nicht dann prüfe ob \textcolor{red}{Bedingung2} True ist, falls ja führe Programmcode 2 aus, andernfalls (else) Programmcode 3\\
+
+\begin{lstlisting}
+if Bedingung == True:
+	F(*ü*)hre Programmcode 1 aus
+elif Bedingung2 == True:
+	F(*ü*)hre alternativen Programmcode2 aus
+else:
+	F(*ü*)hre alternativen Programmcode 3 aus, wenn Bedingung1 und 2 nicht zutreffen
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Mehrfach bedingte Ausführung}
+\begin{lstlisting}
+zahl = int(input())
+
+if zahl > 10:
+	print("Die Zahl ist > 10.")
+elif zahl > 5:
+	print("Die Zahl ist > 5 und <10.")
+else:
+	print("Die Zahl ist < 5.")
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{geschachtelte Ausführung}
+
+\begin{lstlisting}
+zahl = int(input())
+
+if zahl < 10:
+	if zahl < 5:
+		print("Die Zahl ist < 5)
+	else:
+		print("Die Zahl ist >= 5 und < 10)
+else:
+	print("Die Zahl ist > 10.")
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}{Bedingte Ausführung}
+\begin{block}{Aufgabe}
+Bei Hunden kleiner Rassen entspricht das erste Lebensjahr etwa 20 Menschenjahren. Das zweite entspricht 8 Jahren und alle weiteren Hundejahre entsprechen jeweils 4 Menschenjahren. Bei einem 5-jährigen Hund rechnen Sie also: 20 + 8 + 4 + 4 + 4 = 40. Fünf Hundejahre wären demnach etwa 40 Menschenjahre.\\
+\end{block}
+\end{frame}
+\begin{frame}{Bedingte Ausführung}
+Kurz:
+\begin{itemize}
+\item 1 Hundejahr $=$ 20 Jahre
+\item 2 Hundejahre $=$ 28 Jahre
+\item Über 2 Jahren $= 28 + (alter -2) * 4$ Jahre
+\end{itemize}
+Aufgabe:
+Es soll ein Programm geschrieben werden, dass mit input() nach dem Alter fragt (nur positives Hundealter). Mit bedingter Ausführung das Menschenalter ermittelt und ausgibt.
+\begin{itemize}
+	\item input("Alter des Hundes: ")
+	\item bedingte Ausführung
+	\item print(...)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Bedingte Ausführung}
+\begin{exampleblock}{Lösung}
+\begin{lstlisting}
+alter = int(input("Alter des Hundes: "))
+if age == 1:
+	print("Das entspricht ca. 28 Jahren")
+elif age == 2:
+	print("Das entspricht ca. 28 Jahren")
+else:
+	human = 28 + (age -2)*4
+	print("Das entspricht ca. " + str(human) + "Jahren")
+\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+
+

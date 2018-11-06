@@ -1,0 +1,103 @@
+\documentclass{beamer}
+%\documentclass[notes=only]{beamer}   % only notes
+\usetheme[progressbar=foot]{metropolis}
+
+\setbeamertemplate{frame footer}{\tiny{\inserttitle \textbar \insertauthor \textbar \insertdate}}
+
+% IMPORTS
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+% \usepackage[T1]{fontenc}
+\usepackage{graphicx}	% Einbinden von Grafiken
+\usepackage{float}		% figure: [H]
+\usepackage{wrapfig}	% figure: [l]
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{hepnames}
+\usepackage{csquotes}
+\usepackage[style=numeric,backend=biber]{biblatex}
+
+
+% Set bib file
+\bibliography{literature}
+
+% Removes icon in bibliography
+\setbeamertemplate{bibliography item}{}
+
+% Custom colors
+\usepackage{xcolor}
+\definecolor{deepblue}{RGB}{46,206,227}
+\definecolor{deepred}{RGB}{245,20,66}
+\definecolor{deepgreen}{RGB}{98,213,51}
+\definecolor{deepgrey}{RGB}{183,183,183}
+\definecolor{deepyellow}{RGB}{222,203,80}
+\definecolor{commentgreen}{RGB}{78,139,70}
+
+\usepackage{listings}
+
+\lstset{ 
+language=Python,
+basicstyle=\fontsize{9}{9}\ttfamily,
+otherkeywords={self},                   % Add keywords here
+keywordstyle=\ttfamily\color{deepblue},
+emph={MyClass,__init__},                % Custom highlighting
+emphstyle=\ttfamily\color{deepred},     % Custom highlighting style
+stringstyle=\color{deepgreen},
+commentstyle=\color{commentgreen},      % comment style
+frame=trbl,                             % Any extra options here
+tabsize=2,
+showstringspaces=false,
+breaklines=true,
+numbers=left,
+extendedchars=false,
+mathescape=true,
+escapeinside={(*}{*)}
+}
+
+\title{Grundkurs: Programmieren}
+\subtitle{Einführung in grundlegende Programmierkonzepte mit Python}
+\date{WS 18/19}
+\author[CS]{Maren Krafft}
+\institute{Universität Passau}
+\subject{Computer Science}
+
+\begin{document}
+\maketitle
+
+\include{sections/intro}
+\include{sections/codio}
+\include{sections/general}
+\include{sections/types}
+\include{sections/operators}
+\include{sections/vars}
+
+%Fragen zu Typen und Operatoren
+\include{sections/if-clauses}
+%kleines Game
+%Fragen zu Bedingungen
+\include{sections/for-loop}
+\include{sections/while-loop}
+%Fragen zu Schleifen
+\include{sections/Tag Ende}
+%\include{sections/scope}
+
+%\include{sections/projects-dimensions}
+
+%\include{sections/syntax}
+%\include{sections/comments-and-readability}
+\include{sections/datastructures}
+\include{sections/functions}
+\include{sections/functions-with-params}
+\include{sections/fileio}
+\include{sections/oop}
+%\include{sections/program-structure}
+%\include{sections/software-engineering}
+\include{sections/compiled_vs_interpreted}
+\include{sections/setup-python}
+\include{sections/setup-idle}
+
+\include{sections/evaluation-literature}
+
+\end{document}

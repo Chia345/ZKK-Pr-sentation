@@ -1,0 +1,53 @@
+\begin{frame}[fragile]{Zuweisung}
+\begin{itemize}
+	\item Zuweisung von Variablen mit dem Zuweisungsoperator \texttt{=}
+	\begin{lstlisting}
+	a = 5
+	b = 3.14
+	c = "Hallo Grundkurs:Programmieren"
+	\end{lstlisting}
+	\item der Variable kann auch das Ergebnis einer Operation zugewiesen werden
+	\begin{lstlisting}
+	a = 1000
+	b = 200
+	percent = b / a * 100
+	\end{lstlisting}
+	\item mehrfache Zuweisung 
+	\begin{lstlisting}
+	a, b, c = 5, 3.14, "Hallo Grundkurs:Programmieren"
+	x = y = z = 42
+	\end{lstlisting}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Typen und Variablen}
+   
+    \begin{block}{Aufgabe}
+       Lasse dich von deinem Programm begrüßen, indem du mit \texttt{input} deinen Namen als  
+       Eingabe in einer Variable speicherst.
+    \end{block}
+    \pause{}
+    \begin{exampleblock}{Lösung}
+        \begin{lstlisting}
+>>> name = input()
+'Maren'
+>>> print("Hallo " + name)
+        \end{lstlisting}
+    \end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{Typconversion}
+    \begin{alertblock}{Achtung}
+    Die \lstinline{input()} Funktion interpretiert jede Benutzereingabe
+    als \texttt{String}. Wenn man Zahlen aufnehmen will, muss der Typ
+    `gecastet' werden, d.h. `umgewandelt'.
+    \begin{itemize}
+        \item \lstinline{int()}: Castet zu int.
+        \item \lstinline{str()}: Castet zu String.
+    \end{itemize}
+    Was passiert bei \lstinline{int("HalloWelt")}?
+    \pause{}
+    Ein \texttt{ValueError} wird geworfen. (Exception handling nicht 
+    in diesem Kurs)
+    \end{alertblock}
+\end{frame}
