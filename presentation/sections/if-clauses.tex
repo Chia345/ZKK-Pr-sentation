@@ -20,31 +20,61 @@ else:
 \end{lstlisting}
 \end{frame}
 
+\begin{frame}[fragile]{Bedingte Ausführung}
+Schreibe ein Programm, dass eine Eingabe einliest und speichert. mit input(''Wetter: ")
+Falls die Eingabe ''Schnee'' lautet, gebe ''Es ist Winter'' aus. Andernfalls gebe ''Noch einmal Glück gehabt'' aus.
+\pause{}
+\begin{lstlisting}
+inp = input("Wetter: ")
+if inp == "Schnee":
+    print("Es ist Winter")
+else:
+    print("Noch einmal Glück gehabt")
+\end{lstlisting}
+\end{frame}
+
 \begin{frame}[fragile]{Mehrfach bedingte Ausführung}
 Umgangssprachlich:\\ Wenn (if) eine \textcolor{red}{Bedingung1} True ist, dann führe Programmcode 1 aus, \\falls nicht dann prüfe (elif) ob \textcolor{red}{Bedingung2} True ist, dann führe Programmcode 2 aus, \\andernfalls (else) Programmcode 3\\
 
 \begin{lstlisting}
 if Bedingung == True:
-	# Programmcode 1
+    # Programmcode 1
 elif Bedingung2 == True:
-	# Programmcode 2
+    # Programmcode 2
 else:
-	# Programmcode 3
+    # Programmcode 3
 \end{lstlisting}
 \end{frame}
+
 
 \begin{frame}[fragile]{Mehrfach bedingte Ausführung - Beispiel}
 \begin{lstlisting}
 zahl = int(input())
 
 if zahl > 10:
-	print("Die Zahl ist > 10.")
+    print("Die Zahl ist > 10.")
 elif zahl > 5:
-	print("Die Zahl ist > 5 und <= 10.")
+    print("Die Zahl ist > 5 und <= 10.")
 else:
-	print("Die Zahl ist <= 5.")
+    print("Die Zahl ist <= 5.")
 \end{lstlisting}
 \end{frame}
+
+
+\begin{frame}[fragile]{Bedingte Ausführung}
+Ergänze das zuvor erstellte Programm so, dass nicht nur der Fall ''Schnee'' abgefragt wird, sondern auch ''Sonne''. Bei Eingabe Sonne verwende print(''Ein paar letzte Sonnenstrahlen'') und  print(''Genieße solange wie möglich'')
+\pause{}
+\begin{lstlisting}
+inp = input("Wetter: ")
+if inp == "Schnee":
+    print("Es ist Winter")
+elif inp =="Sonne":
+    print("Ein paar letzte Sonnenstrahlen")
+    print("Genieße solange wie möglich")
+print("Noch einmal Glück gehabt")
+\end{lstlisting}
+\end{frame} 
+
 
 \begin{frame}[fragile]{Schachtelung}
 \begin{itemize}
@@ -62,17 +92,17 @@ else:
 zahl = int(input())
 
 if zahl < 10:
-	if zahl < 5:
-		print("Die Zahl ist < 5")
+    if zahl < 5:
+	     print("Die Zahl ist < 5")
 	else:
-		print("Die Zahl ist >= 5 und < 10")
+		 print("Die Zahl ist >= 5 und < 10")
 else:
 	print("Die Zahl ist > 10")
 \end{lstlisting}
 \end{frame}
 
 
-\begin{frame}{Bedingte Ausführung - Übung 1}
+\begin{frame}{Bedingte Ausführung - Übung}
 Aufgabe: Hundealter in Menschenalter\\
 Bei kleinen Hunden entspricht das erste Lebensjahr etwa 20 Menschenjahren. Das zweite entspricht 8 Jahren und alle weiteren Hundejahre entsprechen jeweils 4 Menschenjahren. Bei einem 5-jährigen Hund rechnen Sie also: 20 + 8 + 4 + 4 + 4 = 40. Fünf Hundejahre wären demnach etwa 40 Menschenjahre.\\
 \end{frame}
@@ -93,7 +123,7 @@ Es soll ein Programm geschrieben werden, dass mit input() nach dem Alter fragt (
 
 \end{frame}
 
-\begin{frame}[fragile]{Bedingte Ausführung - Übung 1 }
+\begin{frame}[fragile]{Bedingte Ausführung - Übung}
 \begin{exampleblock}{Lösung}
 \begin{lstlisting}
 alter = int(input("Alter des Hundes: "))

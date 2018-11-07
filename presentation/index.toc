@@ -13,10 +13,10 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {6}{Bedingte Ausf\IeC {\"u}hrung}{48}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Schleifen}{57}{0}{7}
+\beamer@sectionintoc {7}{Schleifen}{61}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Wiederholung}{73}{0}{8}
+\beamer@sectionintoc {8}{Wiederholung}{77}{0}{8}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{Funktionen}{82}{0}{9}
+\beamer@sectionintoc {9}{Funktionen}{86}{0}{9}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {10}{Listen}{90}{0}{10}
+\beamer@sectionintoc {10}{Listen}{94}{0}{10}

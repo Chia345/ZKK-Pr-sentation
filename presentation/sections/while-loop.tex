@@ -1,7 +1,7 @@
 \begin{frame}[fragile]{Die \texttt{while}-Schleife}
 	Umgangssprachlich:\\
 	Wiederhole den Programmcode solange die Bedingung True ist.
-	Gefahr: Falls immer das gleiche (Bedinung wird nicht verändert) geprüft wird => Schleife ohne Ende
+	Gefahr: Falls immer das gleiche (Bedinung wird nicht verändert) geprüft wird $=>$ Schleife ohne Ende
 
     \begin{lstlisting}
 while Bedingung == True:
@@ -11,32 +11,32 @@ while Bedingung == True:
     
     Beispiel zähle bis 3
     \begin{lstlisting}
-    i = 1
-    while i <= 3:
-    	print(i)
-    	i = i+1   
+i = 1
+while i <= 3:
+    print(i)
+    i = i+1   
     \end{lstlisting}
    
 \end{frame}
 
 \begin{frame}[fragile]{while-Schleife Übung}
 \begin{block}{Aufgabe 1}
-	Verändere den Code so, dass der \texttt{String} `Hello World' mit einer while-Schleife 6-mal auf der Konsole ausgegeben wird.
+	Verändere den Code so, dass er mit einer while-Schleife 6-mal \texttt{String} ''Hello World'' ausgibt.
 \end{block}
 \pause{}
 \begin{exampleblock}{Lösung}
 	\begin{lstlisting}		 
-	i = 1
-	while i <= 6:
-		print("Hello World!")
-		i = i+1   		
+i = 1
+while i <= 6:
+	print("Hello World!")
+	i = i+1   		
 	\end{lstlisting}
 \end{exampleblock}
 \end{frame}
 
 \begin{frame}[fragile]{while-Schleife Übung}
 \begin{block}{Aufgabe 2}
-	Schreibe einen Code, der solange fragt ''Nerv ich dich? '', bis er die Eingabe ''JA!'' erhält.\\
+	Schreibe einen Code, der solange fragt ''Nerv ich dich? '' bis er die Eingabe ''JA!'' erhält.\\
 	Danach lass das Programm ''Schade'' ausgeben.
 	
 \end{block}
