@@ -23,23 +23,6 @@
 \end{frame}
 
 
-\begin{frame}[fragile]{Übung}
-\begin{lstlisting} 
-print(4 >= 4) 
-print(6 == 7)
-print(3 + 4 != 6 or 3 == 5)
-not True
-\end{lstlisting}
-\pause{}
-\begin{lstlisting} 
-True
-False
-True or False => True
-False
-\end{lstlisting}
-
-\end{frame}
-
 \begin{frame}[fragile]{Variablen und Zuweisungen}
 	\begin{itemize}
 		\item Werte werden Variablen mit $=$ zugewiesen
@@ -71,6 +54,27 @@ for Variable in range(Anfang, Ende):
 \begin{lstlisting}
 while Bedingung == True:
 # Programmcode
-
 \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Wiederholungsaufgabe}
+	Aufgabe: Ein komplexerer Chatbot\\
+	\begin{itemize}
+		\item Wiederholung bis Eingabe ''Genug''
+		\item Eingabe einlesen mit ''Du: ''
+		\item Wenn die Eingabe ''Alles okay?'' lautet, soll dreimal ''Bot: SOS'' ausgegeben werden
+		\item Wenn die Eingabe "Wie geht es dir?" lautet, soll zufällig ''Bot: Gut'', ''Bot: Schlecht'', oder ''Bot: Passt schon'' ausgegeben werden
+		\item Wenn die Eingabe ''Was ist der Sinn des Lebens'' lautet, soll ''Bot: 42'' ausgegeben werden
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}[fragile]{Wiederholungsaufgabe}
+
+\begin{itemize}
+	\item Wenn die Eingabe ''Rechne aus wie alt ich bin'' lautet, soll der Bot nach dem Geburtsjahr fragen und dann nach dem Monat (als Zahl) und dann nach dem Tag. \\Fall 1: Falls Monat $<11$ or Monat == 11 und Tag $<$ heutiger Tag 2018 - Geburtsjahr. \\
+	Fall 2: heute Geburtag\\
+	Fall 3: noch nicht Geburtstag gehabt
+	\item sonst ''Bot: Stelle mir eine andere Frage'' 
+	\end{itemize}
 \end{frame}
