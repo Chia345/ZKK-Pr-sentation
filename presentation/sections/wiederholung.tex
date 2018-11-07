@@ -88,9 +88,10 @@ while Bedingung == True:
 \begin{frame}[fragile]{Wiederholungsaufgabe}
 
 \begin{itemize}
-	\item Wenn die Eingabe ''Rechne aus wie alt ich bin'' lautet, soll der Bot nach dem Geburtsjahr fragen und dann nach dem Monat (als Zahl) und dann nach dem Tag. \\Fall 1: Falls Monat $<11$ or Monat == 11 und Tag $<$ heutiger Tag 2018 - Geburtsjahr. \\
+	\item Wenn die Eingabe ''Rechne aus wie alt ich bin'' lautet, soll der Bot nach dem Geburtsjahr fragen und dann nach dem Monat (als Zahl) und dann nach dem Tag. \\Fall 1: Falls Monat $<11$ or $($ Monat == 11 and Tag $<$ heutiger Tag $)$ \\
 	Fall 2: heute Geburtstag\\
 	Fall 3: noch nicht Geburtstag gehabt
 	\item sonst ''Bot: Stelle mir eine andere Frage'' 
+	\item Sobald die Eingabe "Genug" lautet und die Schleife verlassen worden ist, gebe ''Bot: Bis bald!'' aus
 	\end{itemize}
 \end{frame}
