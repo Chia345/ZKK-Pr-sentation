@@ -1,0 +1,88 @@
+\begin{frame}[fragile]{Die \texttt{while}-Schleife}
+	Umgangssprachlich:\\
+	Wiederhole den Programmcode solange die Bedingung True ist.
+	Gefahr: Falls immer das gleiche (Bedinung wird nicht verändert) geprüft wird => Schleife ohne Ende
+
+    \begin{lstlisting}
+while Bedingung == True:
+    # Programmcode
+
+    \end{lstlisting}
+    
+    Beispiel zähle bis 3
+    \begin{lstlisting}
+    i = 1
+    while i <= 3:
+    	print(i)
+    	i = i+1   
+    \end{lstlisting}
+   
+\end{frame}
+
+\begin{frame}[fragile]{while-Schleife Übung}
+\begin{block}{Aufgabe 1}
+	Verändere den Code so, dass der \texttt{String} `Hello World' mit einer while-Schleife 6-mal auf der Konsole ausgegeben wird.
+\end{block}
+\pause{}
+\begin{exampleblock}{Lösung}
+	\begin{lstlisting}		 
+	i = 1
+	while i <= 6:
+		print("Hello World!")
+		i = i+1   		
+	\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{while-Schleife Übung}
+\begin{block}{Aufgabe 2}
+	Schreibe einen Code, der solange fragt ''Nerv ich dich? '', bis er die Eingabe ''JA!'' erhält.\\
+	Danach lass das Programm ''Schade'' ausgeben.
+	
+\end{block}
+\pause{}
+\begin{exampleblock}{Lösung}
+	\begin{lstlisting}		 
+		inp = input("Nerv ich dich? ")
+		while inp != "JA!":
+			  inp = input("Nerv ich dich? ")
+		print("Schade")	
+	\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+
+
+\begin{frame}{Magische Miesmuschel}
+
+	Programmiere einen einfachen Bot.\\ 
+	Er wartet mit (''Du: '')auf eine Nein/Ja-Frage und beantwortet sie mit einer zufälligen (random) Antwort(''Bot: '' + Antwort). \\
+	Er fragt so lange nach bis er ''Ich will nicht mehr'' als Eingabe erhält. Er verabschiedet sich mit "Bot: Bye"\\
+	nötig:
+	\begin{itemize}
+		\item input
+		\item while-Schleife
+		\item Bedingung
+		\item random Zahl (soll einer bestimmten Antwort zugeordnet werden)
+	\end{itemize}		
+\end{frame}
+
+\begin{frame}[fragile]{Die \texttt{while}-Schleife}
+\begin{exampleblock}{Lösung}
+\begin{lstlisting}
+from random import *
+
+inp = input("Du: ")
+while inp != "Ich will nicht mehr" :
+	zahl = randint(0, 1)
+	if zahl == 0:
+		print("Bot: Nein")
+	else:
+		print("Bot: Ja")
+	inp = input("Du: ")
+print("Bot: Bye")
+\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+

@@ -1,0 +1,106 @@
+\section{Operatoren}
+
+\begin{frame}[fragile]{Operatoren}
+\begin{itemize}
+	\item Rechenoperatoren 
+	\item Vergleichende Operatoren
+	\item Logische Operatoren
+\end{itemize}
+\end{frame}
+
+%Einführung Rechenoperationen
+\begin{frame}[fragile]{Rechenoperatoren}
+\begin{itemize}
+\item \textbf{+} und \textbf{-}
+\item \textbf{*} und \textbf{/}
+\item Modulo \textbf{\%} (entspricht dem Rest, der durch eine Teilung entsteht)
+\end{itemize}
+\end{frame}
+
+
+%Beispielaufgabe mit print
+\begin{frame}[fragile]{Zahlen und Rechenoperatoren - Übung}
+Was ergeben folgende Ausdrücke? Überprüfe mit  Python.
+\begin{lstlisting}
+print("Ich" + " bin " + str(10) + " Jahre alt") 
+print("Hallo"*2)
+print(2.45 + 3)
+print("Hallo " + "3")
+print(1/2.5 +2)
+print(3%2)
+print(6%3)
+\end{lstlisting}
+\pause{}
+\begin{lstlisting}
+Ich bin 10 Jahre alt
+HalloHallo
+5.45 
+Hallo 3
+2.4
+1
+0
+\end{lstlisting}
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Vergleichende Operatoren}
+Wollen wir aber Datentypen vergleichen, benötigen wir weitere Operatoren.\\
+Diese ergeben immer einen Booleanwert (True/False).\\
+
+\begin{itemize}
+\item \textbf{==} prüft zwei Werte auf Gleichheit
+\item \textbf{!=} prüft zwei Werte auf Ungleichheit
+\item \textbf{$>$} größer (bei Strings wird automatisch die Länge vergleichen)
+\item \textbf{$<$} kleiner (bei Strings wird automatisch die Länge vergleichen)
+\item \textbf{$<=$, $>=$}  kleiner-gleich, größer-gleich (bei Strings wird automatisch die Länge vergleichen)
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Vergleichende Operatoren - Übung}
+Was ergeben folgende Ausdrücke? Überprüfe mit Python.
+
+\begin{lstlisting} 
+print(3 > 4) 
+
+print(6 != 7)
+
+print("Hallo" < "Hallo Welt!") 
+
+print("Hallo" == "Hallo Welt")
+
+\end{lstlisting}
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Logische Operatoren}
+Vergleichen von zwei Wahrheitswerten (meist auf Grundlage von vergleichenden Operatoren)\\
+Diese ergeben immer einen Booleanwert (True/False).
+
+\begin{itemize}	
+\item \textbf{and}  logisches `Und' (True, wenn beide Seiten wahr sind)
+\item \textbf{or}  logisches `Oder' (True, wenn eine Seite, die andere oder beide wahr sind)
+\item \textbf{not}  verneint einen Ausdruck (Verneinung: aus True wird False, aus False wird True)
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Logische Operatoren - Übung}
+Was ergeben folgende Ausdrücke? Überprüfe mit dem Python Interpreter.
+
+\begin{lstlisting} 
+print(3 > 4 or 6 != 7)
+
+print("Hallo" < "Hallo Welt!" and 3 > 4)
+
+print(not( "Hallo" == "Hallo Welt"))
+\end{lstlisting}
+\end{frame}
+
+
+
+
+
+
+

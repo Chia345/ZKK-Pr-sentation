@@ -1,0 +1,76 @@
+\section{Wiederholung}
+
+\begin{frame}[fragile]{Datentypen}
+	\begin{itemize}
+		\item String (str)
+		\item Boolean (bool)
+		\item Integer (int)
+		\item Float (float)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Operatoren}
+	\begin{itemize}
+		\item \texttt{==}: prüft zwei Werte auf Gleichheit
+		\item \texttt{!=}: prüft zwei Werte auf Ungleichheit
+		\item \texttt{>}: größer
+		\item \texttt{<}: kleiner 
+		\item \texttt{<=, >=}, kleiner-gleich, größer-gleich
+		\item \texttt{and}: logisches `Und'
+		\item \texttt{or}: logisches `Oder'
+		\item \texttt{not}: verneint einen Ausdruck
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{Übung}
+\begin{lstlisting} 
+print(4 >= 4) 
+print(6 == 7)
+print(3 + 4 != 6 or 3 == 5)
+not True
+\end{lstlisting}
+\pause{}
+\begin{lstlisting} 
+True
+False
+True or False => True
+False
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]{Variablen und Zuweisungen}
+	\begin{itemize}
+		\item Werte werden Variablen mit $=$ zugewiesen
+		\item sinnvolle, kleingeschriebene Variablennamen
+		\item auf Variablentyp achten (welchen Datentyp hat der zugewiesene Wert)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Bedingte Ausführung}
+	\begin{lstlisting}
+	if Bedingung == True:
+	     # Programmcode 1
+	elif Bedingung2 == True:
+	     # Programmcode 2
+	...
+	else:
+	     # Programmcode 3
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Schleifen}
+\textbf{for-Schleife}
+\begin{lstlisting}
+for Variable in range(Anfang, Ende):
+		# Programmcode
+\end{lstlisting}
+
+\textbf{while-Schleife}
+\begin{lstlisting}
+while Bedingung == True:
+# Programmcode
+
+\end{lstlisting}
+\end{frame}

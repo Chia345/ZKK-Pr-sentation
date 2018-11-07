@@ -1,0 +1,501 @@
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {1}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {1}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {1}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {1}{Einf\IeC {\"u}hrung in die Programmierung}{2}{Einf\IeC {\"u}hrung in die Programmierung}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {2}{2}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {3}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{3}{4/4}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {4}{4}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{4}{5/5}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {5}{5}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{5}{6/6}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{6}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{6}{7/7}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {7}{7}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {2}{7}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {2}{7}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {2}{Codio}{8}{Codio}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{1}{8/8}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {8}{8}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{2}{9/9}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {9}{9}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{3}{10/10}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {10}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{4}{11/11}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {11}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{5}{12/12}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {12}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{6}{13/13}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {13}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{7}{14/14}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {14}{14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {8}{14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {8}{14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {3}{Datentypen}{15}{Datentypen}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{1}{15/15}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {15}{15}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{2}{16/16}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {16}{16}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{3}{17/17}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {17}{17}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{4}{18/18}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {18}{18}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{5}{19/19}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {19}{19}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{6}{20/20}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {20}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{7}{21/21}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{8}{22/23}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {22}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {15}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {15}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {4}{Operatoren}{24}{Operatoren}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{1}{24/24}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {24}{24}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{2}{25/25}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {25}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{3}{26/26}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {26}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{4}{27/28}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{5}{29/29}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {29}{29}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{6}{30/30}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {30}{30}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{7}{31/31}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {31}{31}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{8}{32/32}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {32}{32}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {24}{32}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {24}{32}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Variablen, Zuweisungen und Typumwandlung}{33}{Variablen, Zuweisungen und Typumwandlung}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{33/33}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {33}{33}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{2}{34/34}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {34}{34}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{3}{35/35}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {35}{35}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{4}{36/36}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {36}{36}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{5}{37/38}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {37}{38}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{6}{39/40}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {39}{40}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{7}{41/41}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {41}{41}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{8}{42/42}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {42}{42}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{9}{43/43}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {43}{43}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{10}{44/45}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {44}{45}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{11}{46/46}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {46}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{12}{47/47}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {47}{47}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {33}{47}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {33}{47}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {6}{Bedingte Ausf\IeC {\"u}hrung}{48}{Bedingte Ausf\IeC {\"u}hrung}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{1}{48/48}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {48}{48}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{2}{49/49}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {49}{49}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{3}{50/50}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {50}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{4}{51/51}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {51}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{5}{52/52}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {52}{52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{6}{53/53}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {53}{53}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{7}{54/54}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {54}{54}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{8}{55/55}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {55}{55}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{9}{56/56}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {56}{56}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {48}{56}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {48}{56}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {7}{Schleifen}{57}{Schleifen}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{1}{57/57}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {57}{57}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{2}{58/58}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {58}{58}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{3}{59/60}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {59}{60}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{4}{61/61}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {61}{61}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{5}{62/62}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {62}{62}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{6}{63/64}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {63}{64}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{7}{65/65}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {65}{65}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{8}{66/66}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {66}{66}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{9}{67/68}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {67}{68}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{10}{69/70}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {69}{70}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{11}{71/71}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {71}{71}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{12}{72/72}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {72}{72}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {57}{72}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {57}{72}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {8}{Wiederholung}{73}{Wiederholung}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{1}{73/73}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {73}{73}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{2}{74/74}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {74}{74}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{3}{75/75}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {75}{75}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{4}{76/76}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {76}{76}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{5}{77/77}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {77}{77}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{6}{78/78}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {78}{78}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{7}{79/79}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {79}{79}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{8}{80/80}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {80}{80}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{9}{81/81}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {81}{81}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {73}{81}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {73}{81}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {9}{Funktionen}{82}{Funktionen}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{1}{82/82}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {82}{82}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{2}{83/83}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {83}{83}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{3}{84/84}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {84}{84}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{4}{85/85}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {85}{85}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{5}{86/86}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {86}{86}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{6}{87/87}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {87}{87}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{7}{88/88}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {88}{88}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{8}{89/89}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {89}{89}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {82}{89}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {82}{89}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {10}{Listen}{90}{Listen}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{1}{90/90}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {90}{90}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{2}{91/91}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {91}{91}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{3}{92/92}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {92}{92}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{4}{93/93}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {93}{93}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{5}{94/94}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {94}{94}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{6}{95/95}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {95}{95}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{7}{96/97}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {96}{97}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{8}{98/99}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {98}{99}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{9}{100/100}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {100}{100}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{10}{101/103}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {101}{103}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{11}{104/104}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {104}{104}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{12}{105/106}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {105}{106}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{13}{107/107}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {107}{107}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{14}{108/108}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {108}{108}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{15}{109/109}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {109}{109}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{16}{110/110}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {110}{110}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{17}{111/111}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {111}{111}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{18}{112/112}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {112}{112}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{19}{113/113}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {113}{113}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{20}{114/114}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {114}{114}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{21}{115/115}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {115}{115}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{22}{116/116}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {116}{116}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{23}{117/117}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {117}{117}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{24}{118/118}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {118}{118}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{25}{119/119}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {119}{119}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{26}{120/121}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {120}{121}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{27}{122/122}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {122}{122}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{28}{123/123}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {123}{123}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {10}{0}{29}{124/124}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\beamer@partpages {1}{124}}
+\headcommand {\beamer@subsectionpages {90}{124}}
+\headcommand {\beamer@sectionpages {90}{124}}
+\headcommand {\beamer@documentpages {124}}
+\headcommand {\gdef \inserttotalframenumber {96}}

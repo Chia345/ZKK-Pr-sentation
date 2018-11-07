@@ -1,0 +1,96 @@
+\section{Wiederholung}
+
+\begin{frame}[fragile]{Datentypen}
+	\begin{itemize}
+		\item String (str)
+		\item Boolean (bool)
+		\item Integer (int)
+		\item Float (float)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Operatoren}
+	\begin{itemize}
+		\item \texttt{==}: prüft zwei Werte auf Gleichheit
+		\item \texttt{!=}: prüft zwei Werte auf Ungleichheit
+		\item \texttt{>}: größer
+		\item \texttt{<}: kleiner 
+		\item \texttt{<=, >=}, kleiner-gleich, größer-gleich
+		\item \texttt{and}: logisches `Und'
+		\item \texttt{or}: logisches `Oder'
+		\item \texttt{not}: verneint einen Ausdruck
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{Variablen und Zuweisungen}
+	\begin{itemize}
+		\item Werte werden Variablen mit $=$ zugewiesen
+		\item sinnvolle, kleingeschriebene Variablennamen
+		\item auf Variablentyp achten (welchen Datentyp hat der zugewiesene Wert)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Bedingte Ausführung}
+	\begin{lstlisting}
+	if Bedingung == True:
+	     # Programmcode 1
+	elif Bedingung2 == True:
+	     # Programmcode 2
+	...
+	else:
+	     # Programmcode 3
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Schleifen}
+\textbf{for-Schleife}
+\begin{lstlisting}
+for Variable in range(Anfang, Ende):
+		# Programmcode
+\end{lstlisting}
+
+\textbf{while-Schleife}
+\begin{lstlisting}
+while Bedingung == True:
+# Programmcode
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Wichtige Funktinen}
+\textbf{print()}
+\begin{itemize}
+	\item Gibt einen String aus
+	\item Die einzelnen Teile in den Klammern müssen vom gleichen Datentyp sein (meist String)
+\end{itemize}
+
+\textbf{input()}
+\begin{itemize}
+	\item Liest eine Zeile ein
+	\item Gibt einen String zurück (Typumwandlung hinterher)
+	\item input(''Hallo'') gibt Hallo aus, bevor die Eingabe erwartet wird
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{Wiederholungsaufgabe}
+	Aufgabe: Ein komplexerer Chatbot\\
+	\begin{itemize}
+		\item Wiederholung bis Eingabe ''Genug''
+		\item Eingabe einlesen mit ''Du: ''
+		\item Wenn die Eingabe ''Alles okay?'' lautet, soll dreimal ''Bot: SOS'' ausgegeben werden
+		\item Wenn die Eingabe "Wie geht es dir?" lautet, soll zufällig ''Bot: Gut'', ''Bot: Schlecht'', oder ''Bot: Passt schon'' ausgegeben werden
+		\item Wenn die Eingabe ''Was ist der Sinn des Lebens'' lautet, soll ''Bot: 42'' ausgegeben werden
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}[fragile]{Wiederholungsaufgabe}
+
+\begin{itemize}
+	\item Wenn die Eingabe ''Rechne aus wie alt ich bin'' lautet, soll der Bot nach dem Geburtsjahr fragen und dann nach dem Monat (als Zahl) und dann nach dem Tag. \\Fall 1: Falls Monat $<11$ or Monat == 11 und Tag $<$ heutiger Tag 2018 - Geburtsjahr. \\
+	Fall 2: heute Geburtag\\
+	Fall 3: noch nicht Geburtstag gehabt
+	\item sonst ''Bot: Stelle mir eine andere Frage'' 
+	\end{itemize}
+\end{frame}

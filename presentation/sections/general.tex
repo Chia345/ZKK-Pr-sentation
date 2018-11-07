@@ -1,0 +1,65 @@
+\begin{frame}[fragile]{Allgemeines zu Python}
+Kommentare
+\begin{itemize}
+	\item Wir kommentieren mit \#
+	
+	\begin{lstlisting}
+	# Einfach so
+	\end{lstlisting}
+
+	\item Einzeiler
+	\item Sinnvolle Kommentare
+	\item Am Anfang jeder Python-Datei ein Kommentar, der den Inhalt beschreibt
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Groß/Kleinschreibung und Einrückungen }
+
+\begin{itemize}
+	\item Fast alles wird klein geschreiben
+	\item Es gibt Ebenen (durch Einrückungen = 4 Leerzeichen)
+	\item Leerzeilen und Umbrüche sind nicht nötig, aber manchmal sinnvoll 
+	
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Programm}
+\begin{itemize}
+	\item wird "von oben nach unten" ausgeführt
+	\item kein automatisches springen (nach oben) oder neu starten
+	\item ein komplettes Python Dokument mit allen Befehlen
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Funktion}
+	\begin{itemize}
+	\item wird ähnlich wie in der Mathematik verwendet (nur nicht mit Zahlen)
+	\item eine Vielzahl von Befehlen (vorgefertigt oder selbstgeschrieben) zusammengefasst in einer bestimmten Schreibweise	
+	\end{itemize}
+\end{frame}
+
+\defverbatim{\pythonenglish}{%
+	\begin{lstlisting}[frame=none,basicstyle=\fontsize{9}{11}\ttfamily]	
+	#Ein Beispielcode
+	
+	e2g_dict = {'a':'ein', 'is':'ist', 'test':'Test', 'this':'dies'}
+	
+	# Englisch nach Deutsch uebersetzen
+	def translate(english):
+		    return e2g_dict[english]
+	
+	esentence = 'this is a test'
+	elist = esentence.split()
+	glist = []
+	
+	for eword in elist:
+		    glist = glist + [translate(eword)]	
+		
+	gsentence = " ".join(glist)
+	print gsentence
+	\end{lstlisting}
+}
+\begin{frame}[standout]
+\pythonenglish
+\end{frame}
+

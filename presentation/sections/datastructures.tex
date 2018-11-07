@@ -1,0 +1,114 @@
+\section{Listen}
+
+\begin{frame}[fragile]{Listen}
+\begin{itemize}
+	\item Einfache Listen
+	\item Wichtige Listenfunktionen
+	\item Mehrdimensionale Listen
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Einfache Listen}
+	\begin{itemize}
+		\item Datenstruktur
+		\item Speichert eine beliebige Anzahl an Elementen
+		\item wir mit eckigen Klammern $[ ]$ dargestellt
+		\item Trennung der Elemente durch Kommas
+		\item Das erste Element ist der 0. Eintrag 
+		
+	\end{itemize}
+\begin{lstlisting}
+zahlen = [1, 2, 3, 4, 5, 6]
+texte = ["Hallo", "Welt", ".", "Grundkurs", "Programmieren"]
+gemischt =[True, "String", 3]
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Einfacher Zugriff auf Elemente}
+\begin{itemize}
+	\item Stelle(index) wird benötigt	
+\end{itemize}
+\begin{lstlisting}
+zahlen = [1, 2, 3, 4, 5, 6]
+
+#Speichert den Inhalt der 2.Position in pos2
+pos2 = zahlen[1]
+
+#Speichert in die Liste an Position 2 die Zahl 99
+zahlen[1] = 99
+#aktualisierte Liste: [1, 99, 3, 4, 5, 6]
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Mehrdimensionale Listen/ Listen in Listen}
+\begin{itemize}
+	\item Listen innerhalb listen	
+\end{itemize}
+\begin{lstlisting}
+matrix = [[1, 2], [3, 4]]
+\end{lstlisting}
+Speichert den Inhalt der Position 1 der inneren Liste, die selbst auf Position 0 der {\"a}u{\ss}eren Liste ist in pos2. pos2 == 2
+\begin{lstlisting}
+pos2 = zahlen[0][1]
+\end{lstlisting}
+Speichert 99 an die Stelle [1][0]
+\begin{lstlisting}
+zahlen[1][0] = 99
+#aktualisierte Liste: [[1, 2],[99, 3]]
+\end{lstlisting}
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Wichtige Funktionen}
+Die Liste bietet eine große Anzahl an  Funktionen, die auf ihnen
+ausgeführt werden können.
+
+\begin{lstlisting}
+liste = ["Grundkurs", "Programmieren", 42, "Pie", 3.14]
+
+liste[2] = 99
+len(liste)
+liste.append("Passau")
+liste.extend([4, 5, 3.14])
+liste.insert(2, "Falke")
+liste.count(3.14)
+liste.index(3.14)
+liste.remove(3.14)
+liste.pop()
+liste.reverse()
+sum([1,3,5])
+max([1,3,5])
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]{Datenstrukturen: Listen}
+\begin{block}{Aufgabe}
+Versuche zu erraten, was die Ausgabe dieses Programms ist.
+\end{block}
+
+\begin{lstlisting}
+liste_a = ["Hallo", "schoenes", "Wetter"]
+liste_b = liste_a
+
+liste_b[1] = "schlechtes"
+
+print(liste_a[0], liste_a[1], liste_a[2])  
+\end{lstlisting}
+\pause{}
+\begin{exampleblock}{Lösung}
+    \texttt{Hallo schlechtes Wetter}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{Datenstrukturen: Listen}
+
+Schreibe ein Programm, dass drei Prüfungs-Noten einliest, in einer
+Liste speichert und dir nach jeder Eingabe den Durchschnitt errechnet. 
+\pause{}
+\begin{exampleblock}{Lösung}
+siehe Beamer
+\end{exampleblock}
+\end{frame}
+

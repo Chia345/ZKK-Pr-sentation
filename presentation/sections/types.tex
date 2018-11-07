@@ -1,0 +1,117 @@
+\section{Datentypen}
+
+\begin{frame}[fragile]{Datentypen}
+Lernziele
+\begin{itemize}
+	\item Die wichtigsten Datentypen kennenlernen
+	\item Diese ausgeben können
+	\item Datentypen in andere Datentypen umwandeln
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Erste wichtige Funktion: print()}
+
+	print():\\
+	Gibt alles innerhalb der Klammern aus.
+
+\begin{lstlisting}
+print("Hallo")
+print(1)
+print(1+2)
+\end{lstlisting}
+\end{frame}
+
+
+
+%Einführung String
+\begin{frame}[fragile]{String}
+\texttt{String, str}: 
+     	\begin{itemize}
+     		\item ist eine Zeichenkette
+     		\item wird in '' '' geschrieben
+     	\end{itemize}
+       \begin{lstlisting}
+"Ich bin vom Typ String, eine Reihe von Zeichen"
+"1"
+" "
+    \end{lstlisting}
+\end{frame}
+
+%Beispielaufgabe für String
+\begin{frame}[fragile]{Hello World}
+\begin{lstlisting}
+print("Hello World!")
+\end{lstlisting}
+\begin{itemize}
+	\item Dieser Befehl gibt den Text (String) ''Hello World!'' aus.
+\end{itemize}
+\begin{exampleblock}{Glückwunsch}
+	Ihr habt gerade euer erstes Codeprogramm geschrieben!
+\end{exampleblock}
+\end{frame}
+
+
+%Einfürhung Integer udn Float
+\begin{frame}[fragile]{Zahlen}
+
+	 \texttt{Integer, int}: 
+	\begin{itemize}
+		\item ist eine ganze Zahl
+	\end{itemize}
+	\begin{lstlisting}
+-1
+2
+3
+...
+	\end{lstlisting}
+	 \texttt{Float, float}:
+    	\begin{itemize}
+    	\item ist eine Gleitkommazahl
+    \end{itemize}
+    \begin{lstlisting}
+3.1415
+3.0
+-2.3
+    \end{lstlisting}
+
+\end{frame}
+
+
+%Einführung Boolean
+\begin{frame}[fragile]{Boolean}
+\texttt{Boolean, bool}:
+\begin{itemize}
+	\item Wahrheitswert
+\end{itemize}
+\begin{lstlisting}
+True
+False
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]{Typumwandlung}
+\begin{itemize}
+	\item \lstinline{int(...)}: Castet zu int.
+	\item \lstinline{float(...)}: Castet zu int.
+	\item \lstinline{str(...)}: Castet zu String.
+	
+\end{itemize}
+Wandle um und gebe mit print() aus	
+\begin{itemize}
+	\item 5 zu ''5''
+	\item ''5.0'' zu 5.0
+	\item ''Hallo'' + 5 zu ''Hallo 5'' 
+\end{itemize}
+\pause{}
+\begin{lstlisting}
+print(str(5))
+print(float("5.0"))
+print("Hallo" + " " + str(5))
+\end{lstlisting}
+\end{frame}
+
+
+
+
+
