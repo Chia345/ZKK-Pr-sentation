@@ -1,26 +1,91 @@
-\begin{frame}[fragile]{Wiederholungsaufgabe}
-
+\section{Funktionen}
+\begin{frame}[fragile]{Funktionen}
 \begin{itemize}
-	\item Wenn die Eingabe ''Rechne aus wie alt ich bin'' lautet, soll der Bot nach dem Geburtsjahr fragen und dann nach dem Monat (als Zahl) und dann nach dem Tag. \\Fall 1: Falls Monat $<11$ or Monat == 11 und Tag $<$ heutiger Tag 2018 - Geburtsjahr. \\
-	Fall 2: heute Geburtag\\
-	Fall 3: noch nicht Geburtstag gehabt
-	\item sonst ''Bot: Stelle mir eine andere Frage'' 
+	\item Funktionen ohne Parameter
+	\item Funktionen mit Parameter
+	\item Rückgabewert 
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]{Funktionen}
-Je größer ein Projekt wird, desto wichtiger ist es den Überblick zu behalten
-und evtl. Programmblöcke, die etwas ähnliches machen zusammen zu fassen.
+	\begin{itemize}
+		\item Fasst mehrere sinnvolle Befehle zusammen
+		\item kann später im Code aufgerufen werden
+		\item ''Auslagerung von Code'' (Beispielsweise, weil er häufiger verwendet werden soll)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Funktionen ohne Parameter}
+Jedes mal, wenn die Funktion name() im späteren Verlauf aufgerufen wird, wird der Programmcode ausgeführt. \\
+Wichtig: Die Definition der Funktion ist keine Ausführung der Funktion.
+\begin{lstlisting}
+def name():
+	#Programmcode
+\end{lstlisting}
 
 \begin{lstlisting}
 def greet():
     print("Hey!")
     print("How are you?")
 \end{lstlisting}
-\begin{block}{Aufgabe}
-Schreibe das Programm, das Zahlen vom Benutzer einliest so um, dass das Fragen nach
-einer Zahl und das umwandeln in einen Integer in einer eigenen Funktion geschieht.
-\end{block}
 \end{frame}
+
+\begin{frame}[fragile]{Funktionen mit Rückgabewert}
+Die Funktion gibt einen Wert zurück, der einer Variablen zugewiesen werden kann.
+\begin{lstlisting}
+def name():
+		#Programmcode
+		return rückgabewert
+\end{lstlisting}
+
+\begin{lstlisting}
+def greet():
+		print("Hey!")
+		print("How are you?")
+		return 2
+fragen = greet()
+print(fragen)
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Funktionen mit Parameter}
+Es werden ein oder mehrere Parameter übergeben. \\
+Bei jedem Aufruf muss die Anzahl an Parametern übergeben werden.
+\begin{lstlisting}
+def name(a, b, c, ....):
+		#Programmcode
+\end{lstlisting}
+
+\begin{lstlisting}
+def greet(name):
+		print("Hey!" + name)
+		print("How are you?")
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]{Funktionen mit Parameter und Rückgabewert}
+
+\begin{lstlisting}
+def name(a, b, c, ....):
+		#Programmcode
+		return wert
+\end{lstlisting}
+
+\begin{lstlisting}
+#gibt die Summe zweier Werte zurück
+def sum(wert1, wert2):
+	return wert1 + wert2	
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Übungsaufgabe}
+Schreibe eine Funktion, die die Summe aus 3 Zahlen bildet.\\
+Lese 3 Zahlen jeweils ein und speichere sie ab.\\
+Rufe die Funktion mit den 3 Zahlen als Parameter auf, speichere das Ergebnis und gebe es aus.
+
+\end{frame}
+
+
 
 
