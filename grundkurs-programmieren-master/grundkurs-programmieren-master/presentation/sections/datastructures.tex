@@ -4,7 +4,7 @@
 \begin{itemize}
 	\item Einfache Listen
 	\item Wichtige Listenfunktionen
-	\item Doppelte Listen
+	\item Mehrdimensionale Listen
 \end{itemize}
 \end{frame}
 
@@ -39,6 +39,26 @@ zahlen[1] = 99
 #aktualisierte Liste: [1, 99, 3, 4, 5, 6]
 \end{lstlisting}
 \end{frame}
+
+\begin{frame}[fragile]{Mehrdimensionale Listen/ Listen in Listen}
+\begin{itemize}
+	\item Listen innerhalb listen	
+\end{itemize}
+\begin{lstlisting}
+matrix = [[1, 2], [3, 4]]
+\end{lstlisting}
+Speichert den Inhalt der Position 1 der inneren Liste, die selbst auf Position 0 der {\"a}u{\ss}eren Liste ist in pos2. pos2 == 2
+\begin{lstlisting}
+pos2 = zahlen[0][1]
+\end{lstlisting}
+Speichert 99 an die Stelle [1][0]
+\begin{lstlisting}
+zahlen[1][0] = 99
+#aktualisierte Liste: [[1, 2],[99, 3]]
+\end{lstlisting}
+\end{frame}
+
+
 
 \begin{frame}[fragile]{Wichtige Funktionen}
 Die Liste bietet eine große Anzahl an  Funktionen, die auf ihnen
@@ -83,13 +103,9 @@ print(liste_a[0], liste_a[1], liste_a[2])
 \end{frame}
 
 \begin{frame}[fragile]{Datenstrukturen: Listen}
-\begin{block}{Aufgabe: Notendurchschnitt}
+
 Schreibe ein Programm, dass drei Prüfungs-Noten einliest, in einer
 Liste speichert und dir nach jeder Eingabe den Durchschnitt errechnet. 
-\end{block}
-\begin{lstlisting}
-
-\end{lstlisting}
 \pause{}
 \begin{exampleblock}{Lösung}
 siehe Beamer
