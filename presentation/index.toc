@@ -1,0 +1,22 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Einf\IeC {\"u}hrung in die Programmierung}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Codio}{8}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Datentypen}{15}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Operatoren}{24}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Variablen, Zuweisungen und Typumwandlung}{33}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Bedingte Ausf\IeC {\"u}hrung}{48}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Schleifen}{61}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Wiederholung}{77}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {9}{Funktionen}{86}{0}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {10}{Listen}{95}{0}{10}
