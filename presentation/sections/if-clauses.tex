@@ -21,7 +21,7 @@ else:
 \end{frame}
 
 \begin{frame}[fragile]{Bedingte Ausführung}
-Schreibe ein Programm, dass eine Eingabe einliest und speichert. mit input(''Wetter: ")
+Schreibe ein Programm, das eine Eingabe einliest und speichert. mit input(''Wetter: '')
 Falls die Eingabe ''Schnee'' lautet, gebe ''Es ist Winter'' aus. Andernfalls gebe ''Noch einmal Glück gehabt'' aus.
 \pause{}
 \begin{lstlisting}
@@ -34,7 +34,7 @@ else:
 \end{frame}
 
 \begin{frame}[fragile]{Mehrfach bedingte Ausführung}
-Umgangssprachlich:\\ Wenn (if) eine \textcolor{red}{Bedingung1} True ist, dann führe Programmcode 1 aus, \\falls nicht dann prüfe (elif) ob \textcolor{red}{Bedingung2} True ist, dann führe Programmcode 2 aus, \\andernfalls (else) Programmcode 3\\
+Umgangssprachlich:\\ Wenn (if) eine \textcolor{red}{Bedingung1} True ist, dann führe Programmcode 1 aus, \\falls nicht, dann prüfe (elif) ob \textcolor{red}{Bedingung2} True ist, dann führe Programmcode 2 aus, \\andernfalls (else) Programmcode 3.\\
 
 \begin{lstlisting}
 if Bedingung == True:
@@ -62,13 +62,13 @@ else:
 
 
 \begin{frame}[fragile]{Bedingte Ausführung}
-Ergänze das zuvor erstellte Programm so, dass nicht nur der Fall ''Schnee'' abgefragt wird, sondern auch ''Sonne''. Bei Eingabe Sonne verwende print(''Ein paar letzte Sonnenstrahlen'') und  print(''Genieße solange wie möglich'')
+Ergänze das zuvor erstellte Programm so, dass nicht nur der Fall ''Schnee'' abgefragt wird, sondern auch ''Sonne''. Bei Eingabe Sonne verwende print(''Ein paar letzte Sonnenstrahlen'') und  print(''Genieße solange wie möglich'').
 \pause{}
 \begin{lstlisting}
 inp = input("Wetter: ")
 if inp == "Schnee":
     print("Es ist Winter")
-elif inp =="Sonne":
+elif inp == "Sonne":
     print("Ein paar letzte Sonnenstrahlen")
     print("Genieße solange wie möglich")
 print("Noch einmal Glück gehabt")
@@ -111,10 +111,10 @@ Kurz:
 \begin{itemize}
 \item 1 Hundejahr $=$ 20 Jahre
 \item 2 Hundejahre $=$ 28 Jahre
-\item Über 2 Jahren $= 20 + 8 + (alter - 2)  *  4$ Jahre
+\item Über 2 Jahren $= 20 + 8 + (Alter - 2)  *  4$ Jahre
 \end{itemize}
 Aufgabe:
-Es soll ein Programm geschrieben werden, das mit input() nach dem Alter fragt (nur positives Hundealter). Mit bedingter Ausführung das Menschenalter ermittelt und ausgibt.
+Es soll ein Programm geschrieben werden, das mit input() nach dem Alter fragt (nur positives Hundealter), mit bedingter Ausführung das Menschenalter ermittelt und ausgibt.
 \begin{itemize}
 	\item input(''Alter des Hundes: '')
 	\item bedingte Ausführung
@@ -128,7 +128,7 @@ Es soll ein Programm geschrieben werden, das mit input() nach dem Alter fragt (n
 \begin{lstlisting}
 alter = int(input("Alter des Hundes: "))
 if age == 1:
-	print("Das entspricht ca. 28 Jahren.")
+	print("Das entspricht ca. 20 Jahren.")
 elif age == 2:
 	print("Das entspricht ca. 28 Jahren.")
 else:
