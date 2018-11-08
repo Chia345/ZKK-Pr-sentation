@@ -47,15 +47,14 @@ Fülle die ... aus
 toprint = "Hallo"
 print(toprint)
 Ausgabe: ...
-
+\end{lstlisting}
+\begin{lstlisting}
 Name = ...
 Alter = ...
 print(...)
 Ausgabe soll sein: Max Mustermann ist 20 Jahre alt
 \end{lstlisting}
-
 \pause{}
-
 \begin{lstlisting}
 toprint = "Hallo"
 print(toprint)
@@ -75,15 +74,15 @@ print(name + " ist " + str(alter) + " Jahre alt")
 	\item Soll einer Variable ein neuer Wert zugewiesen werden, so ist eine neue Zuweisung mit  \texttt{=} notwendig.
 	\item Beispiel: \texttt{a} um 5 erhöhen. Korrigiere den Code
 	\begin{lstlisting}
-	a = 5
-	a + 5
-	print(a)
+a = 5
+a + 5
+print(a)
 	\end{lstlisting}
 	\pause{}
 	\begin{lstlisting}
-	a = 5
-	a = a + 5
-	print(a)
+a = 5
+a = a + 5
+print(a)
 	\end{lstlisting}
 	
 \end{itemize}
@@ -98,18 +97,18 @@ print(name + " ist " + str(alter) + " Jahre alt")
 Der Unterschied zwischen = und == ist sehr wichtig.
 \begin{itemize}
 \item == Vergleich beider Seiten; gibt False/True zurück
-\item = ist eine Zuweisung (lernen wir im nächsten Kapitel kennen)
+\item = ist eine Zuweisung 
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]{Übung zu = und == }
 Welche Ausgabe wird folgendes Programm haben?
 	\begin{lstlisting}
-	a = 21
-	b = 21
-	a == b + 1
-	c = a==b
-	print(c)
+a = 21
+b = 21
+a == b + 1
+c = a==b
+print(c)
 	\end{lstlisting}
 \end{frame}
 
@@ -120,8 +119,8 @@ input()
 \begin{itemize}
 \item Liest die letzte Konsolenzeile ein
 \item Gibt den Konsoleneintrag als String zurück
-\item input('''') gibt in der Konsole den Inhalt innerhalb der '''' aus bevor eingelesen wird.
-\item z.B name = input() 
+\item input(''...'') gibt in der Konsole den Inhalt innerhalb der '''' aus bevor eingelesen wird.
+\item z.B name = input("Name: ") 
 \end{itemize}
 \end{frame}
 
@@ -139,9 +138,9 @@ input()
 \pause{}
 \begin{exampleblock}{Lösung}
 \begin{lstlisting}
- name = input("Hallo, wie heisst du?")
-'Maren'
- print("Hallo " + name)
+name = input("Hallo, wie heisst du?")
+Eingabe: Maren
+print("Hallo " + name)
 \end{lstlisting}
 \end{exampleblock}
 \end{frame}
@@ -149,9 +148,9 @@ input()
 \begin{frame}[fragile]{Input - Übung}   
 \begin{block}{Aufgabe}
 	\begin{itemize}
-		\item Lasse dich von deinem Programm begrüßen, indem du mit \texttt{input} ''Hallo, wie heißt du? '' ausgeben lässt. (Schon erledigt)
+		\item Lasse dich von deinem Programm begrüßen, indem du mit input(''Hallo, wie heißt du? '') ausgeben lässt. (Schon erledigt)
 		\item Deinen Namen als Eingabe in einer Variable speicherst. (Schon erledigt)
-		\item Lasse das Programm nach deinem Alter mit (''Wie alt bist du? '') fragen
+		\item Lasse das Programm nach deinem Alter mit input(''Wie alt bist du? '') fragen
 		\item Speichere die Eingabe als Integer in einer Variable 
 		\item Erhöhe das Alter danach um 1
 		\item Lasse ausgeben: ''Du heißt 'name' und wirst 'alter' Jahre alt.''
