@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.1)  8 NOV 2018 22:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.1)  8 NOV 2018 23:43
 entering extended mode
 **./index.tex
 (index.tex
@@ -1502,10 +1502,6 @@ LaTeX Info: Redefining \HepProcess on input line 1.
 
 
 
-]
-LaTeX Info: Redefining \HepProcess on input line 5.
- [9
-
 ])
 \openout2 = `sections/general.aux'.
 
@@ -1515,7 +1511,7 @@ LaTeX Info: Redefining \HepProcess on input line 5.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 14.
- [10
+ [9
 
 
 
@@ -1524,20 +1520,20 @@ LaTeX Info: Redefining \HepProcess on input line 14.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 24.
- [11
+ [10
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 32.
- [12
+ [11
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 39.
- [13
+ [12
 
 ]
 \@verb\pythonenglish=\box65
 LaTeX Info: Redefining \HepProcess on input line 64.
- [14
+ [13
 
 ])
 \openout2 = `sections/types.aux'.
@@ -1546,7 +1542,7 @@ LaTeX Info: Redefining \HepProcess on input line 64.
 (sections/types.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [15
+ [14
 
 
 
@@ -1555,21 +1551,21 @@ LaTeX Info: Redefining \HepProcess on input line 1.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 10.
- [16
+ [15
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 22.
- [17
+ [16
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 38.
- [18
+ [17
 
 ]
 \openout4 = `index.vrb'.
@@ -1577,36 +1573,36 @@ LaTeX Info: Redefining \HepProcess on input line 38.
 
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 52.
- [19
+ [18
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 52.
- [20
+ [19
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 77.
- [21
+ [20
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 91.
- [22
+ [21
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 112.
-[23
+[22
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 112.
- [24
+ [23
 
 ])
 \openout2 = `sections/operators.aux'.
@@ -1614,7 +1610,7 @@ LaTeX Info: Redefining \HepProcess on input line 112.
  (sections/operators.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [25
+ [24
 
 
 
@@ -1623,39 +1619,39 @@ LaTeX Info: Redefining \HepProcess on input line 1.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 9.
- [26
+ [25
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 18.
- [27
+ [26
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 43.
- [28
+ [27
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 43.
- [29
+ [28
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 59.
- [30
+ [29
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 74.
- [31
+ [30
 
 ]
 \openout4 = `index.vrb'.
@@ -1663,14 +1659,14 @@ LaTeX Info: Redefining \HepProcess on input line 74.
 
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 87.
- [32
+ [31
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 99.
- [33
+ [32
 
 ])
 \openout2 = `sections/vars.aux'.
@@ -1678,7 +1674,7 @@ LaTeX Info: Redefining \HepProcess on input line 99.
  (sections/vars.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [34
+ [33
 
 
 
@@ -1687,7 +1683,7 @@ LaTeX Info: Redefining \HepProcess on input line 1.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 10.
- [35
+ [34
 
 ]
 \openout4 = `index.vrb'.
@@ -1695,56 +1691,56 @@ LaTeX Info: Redefining \HepProcess on input line 10.
 
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 21.
- [36
+ [35
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 40.
- [37
+ [36
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
+Overfull \vbox (1.24301pt too high) detected at line 68
+ []
+
+LaTeX Info: Redefining \HepProcess on input line 68.
+[37
+
+] (index.vrb)
 Overfull \vbox (1.24301pt too high) detected at line 68
  []
 
 LaTeX Info: Redefining \HepProcess on input line 68.
 [38
 
-] (index.vrb)
-Overfull \vbox (1.24301pt too high) detected at line 68
- []
-
-LaTeX Info: Redefining \HepProcess on input line 68.
-[39
-
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 89.
- [40
+ [39
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 89.
- [41
+ [40
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 102.
- [42
+ [41
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 113.
- [43
+ [42
 
 ]
 \openout4 = `index.vrb'.
@@ -1752,32 +1748,32 @@ LaTeX Info: Redefining \HepProcess on input line 113.
 
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 125.
- [44
+ [43
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 146.
- [45
+ [44
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 146.
- [46
+ [45
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 159.
- [47
+ [46
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 170.
-[48
+[47
 
 ])
 \openout2 = `sections/if-clauses.aux'.
@@ -1785,7 +1781,7 @@ LaTeX Info: Redefining \HepProcess on input line 170.
  (sections/if-clauses.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [49
+ [48
 
 
 
@@ -1797,32 +1793,32 @@ Overfull \vbox (4.52798pt too high) detected at line 21
  []
 
 LaTeX Info: Redefining \HepProcess on input line 21.
-[50
+[49
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 34.
- [51
+ [50
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 34.
- [52
+ [51
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 47.
- [53
+ [52
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 61.
- [54
+ [53
 
 ]
 \openout4 = `index.vrb'.
@@ -1830,41 +1826,41 @@ LaTeX Info: Redefining \HepProcess on input line 61.
 
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 76.
- [55
+ [54
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 76.
- [56
+ [55
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 86.
- [57
+ [56
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 102.
- [58
+ [57
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 108.
- [59
+ [58
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 124.
 
-[60
+[59
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 139.
- [61
+ [60
 
 ])
 \openout2 = `sections/for-loop.aux'.
@@ -1872,57 +1868,57 @@ LaTeX Info: Redefining \HepProcess on input line 139.
  (sections/for-loop.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [62
+ [61
 
 
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 8.
- [63
+ [62
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 27.
- [64
+ [63
 
 ]
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 27.
- [65
+ [64
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 43.
- [66
+ [65
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 51.
- [67
+ [66
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 76.
- [68
+ [67
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 76.
-[69
+[68
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 84.
- [70
+ [69
 
 ])
 \openout2 = `sections/while-loop.aux'.
@@ -1934,7 +1930,7 @@ LaTeX Info: Redefining \HepProcess on input line 84.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 20.
 LaTeX Info: Redefining \HepProcess on input line 20.
- [71
+ [70
 
 
 
@@ -1944,26 +1940,26 @@ LaTeX Info: Redefining \HepProcess on input line 20.
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 35.
 
-[72
+[71
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 35.
- [73
+ [72
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
+LaTeX Info: Redefining \HepProcess on input line 52.
+ [73
+
+] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 52.
  [74
 
-] (index.vrb)
-LaTeX Info: Redefining \HepProcess on input line 52.
- [75
-
 ]
 LaTeX Info: Redefining \HepProcess on input line 69.
- [76
+ [75
 
 ]
 \openout4 = `index.vrb'.
@@ -1971,7 +1967,7 @@ LaTeX Info: Redefining \HepProcess on input line 69.
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 87.
 
-[77
+[76
 
 ])
 \openout2 = `sections/wiederholung.aux'.
@@ -1979,7 +1975,7 @@ LaTeX Info: Redefining \HepProcess on input line 87.
  (sections/wiederholung.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [78
+ [77
 
 
 
@@ -1988,14 +1984,14 @@ LaTeX Info: Redefining \HepProcess on input line 1.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 10.
- [79
+ [78
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 23.
- [80
+ [79
 
 ]
 \openout4 = `index.vrb'.
@@ -2003,42 +1999,42 @@ LaTeX Info: Redefining \HepProcess on input line 23.
 
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 32.
- [81
+ [80
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 44.
- [82
+ [81
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 58.
- [83
+ [82
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 73.
- [84
+ [83
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 86.
-[85
+[84
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 97.
- [86
+ [85
 
 ])
 \openout2 = `sections/functions.aux'.
@@ -2046,7 +2042,7 @@ LaTeX Info: Redefining \HepProcess on input line 97.
  (sections/functions.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [87
+ [86
 
 
 
@@ -2055,42 +2051,42 @@ LaTeX Info: Redefining \HepProcess on input line 1.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 8.
- [88
+ [87
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 16.
- [89
+ [88
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 32.
- [90
+ [89
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 50.
- [91
+ [90
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 65.
- [92
+ [91
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 81.
- [93
+ [92
 
 ]
 \openout4 = `index.vrb'.
@@ -2098,14 +2094,14 @@ LaTeX Info: Redefining \HepProcess on input line 81.
 
 (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 88.
- [94
+ [93
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 94.
- [95
+ [94
 
 ])
 \openout2 = `sections/datastructures.aux'.
@@ -2113,7 +2109,7 @@ LaTeX Info: Redefining \HepProcess on input line 94.
  (sections/datastructures.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 1.
- [96
+ [95
 
 
 
@@ -2122,21 +2118,21 @@ LaTeX Info: Redefining \HepProcess on input line 1.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 9.
- [97
+ [96
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 25.
- [98
+ [97
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 41.
- [99
+ [98
 
 ]
 \openout4 = `index.vrb'.
@@ -2146,62 +2142,62 @@ Overfull \vbox (6.61824pt too high) detected at line 67
  []
 
 LaTeX Info: Redefining \HepProcess on input line 67.
-[100
+[99
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 90.
- [101
+ [100
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 109.
- [102
+ [101
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 129.
+ [102
+
+]
+\openout4 = `index.vrb'.
+
+ (index.vrb)
+LaTeX Info: Redefining \HepProcess on input line 149.
  [103
 
 ]
-\openout4 = `index.vrb'.
-
- (index.vrb)
+(index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 149.
-
-[104
-
-] (index.vrb)
-LaTeX Info: Redefining \HepProcess on input line 149.
- [105
+ [104
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 159.
- [106
+ [105
 
 ] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 159.
- [107
+ [106
 
 ])
 \openout2 = `sections/fileio.aux'.
 
-
-(sections/fileio.tex
+ (sections/fileio.tex
 \openout4 = `index.vrb'.
 
- (index.vrb)
+
+(index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 7.
- [108
+ [107
 
 
 
@@ -2209,6 +2205,10 @@ LaTeX Info: Redefining \HepProcess on input line 7.
 \openout4 = `index.vrb'.
 
  (index.vrb)
+LaTeX Info: Redefining \HepProcess on input line 31.
+ [108
+
+] (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 31.
  [109
 
@@ -2217,16 +2217,12 @@ LaTeX Info: Redefining \HepProcess on input line 31.
  [110
 
 ]
-(index.vrb)
-LaTeX Info: Redefining \HepProcess on input line 31.
- [111
-
-]
 \openout4 = `index.vrb'.
 
- (index.vrb)
+
+(index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 38.
- [112
+ [111
 
 ])
 \openout2 = `sections/oop.aux'.
@@ -2236,38 +2232,38 @@ LaTeX Info: Redefining \HepProcess on input line 38.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 17.
+ [112
+
+
+
+] (index.vrb)
+LaTeX Info: Redefining \HepProcess on input line 17.
  [113
 
-
-
 ]
+\openout4 = `index.vrb'.
+
+
 (index.vrb)
-LaTeX Info: Redefining \HepProcess on input line 17.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 32.
+LaTeX Info: Redefining \HepProcess on input line 32.
  [114
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 32.
-LaTeX Info: Redefining \HepProcess on input line 32.
- [115
-
-]
-\openout4 = `index.vrb'.
-
- (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 43.
- [116
+ [115
 
 ])
 \openout2 = `sections/compiled_vs_interpreted.aux'.
 
-
-(sections/compiled_vs_interpreted.tex
+ (sections/compiled_vs_interpreted.tex
 LaTeX Info: Redefining \HepProcess on input line 12.
- [117
+
+[116
 
 
 
@@ -2276,22 +2272,21 @@ LaTeX Info: Redefining \HepProcess on input line 12.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 20.
- [118
+ [117
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 42.
-
-[119
+ [118
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 60.
- [120
+ [119
 
 ]
 \@verb\impvsfunc=\box66
@@ -2301,14 +2296,14 @@ LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <15> not available
 (Font)              size <14.4> substituted on input line 63.
 
 LaTeX Info: Redefining \HepProcess on input line 69.
-[121
+[120
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 84.
- [122
+ [121
 
 ]
 \openout4 = `index.vrb'.
@@ -2318,40 +2313,40 @@ Overfull \vbox (6.89273pt too high) detected at line 107
  []
 
 LaTeX Info: Redefining \HepProcess on input line 107.
-[123
+[122
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 123.
- [124
+ [123
 
 ]
 \openout4 = `index.vrb'.
 
  (index.vrb)
 LaTeX Info: Redefining \HepProcess on input line 170.
- [125
+ [124
 
 ]
 Overfull \vbox (16.89735pt too high) detected at line 197
  []
 
 LaTeX Info: Redefining \HepProcess on input line 197.
-[126
+[125
 
 ])
 \openout2 = `sections/setup-python.aux'.
 
  (sections/setup-python.tex
-<images/python_install.png, id=733, 512.66531pt x 317.68687pt>
+<images/python_install.png, id=728, 512.66531pt x 317.68687pt>
 File: images/python_install.png Graphic file (type png)
 <use images/python_install.png>
 Package pdftex.def Info: images/python_install.png  used on input line 10.
 (pdftex.def)             Requested size: 205.06248pt x 127.07248pt.
 LaTeX Info: Redefining \HepProcess on input line 10.
- [127
+ [126
 
 
 
@@ -2361,30 +2356,30 @@ LaTeX Info: Redefining \HepProcess on input line 10.
 
 (sections/setup-idle.tex
 LaTeX Info: Redefining \HepProcess on input line 13.
- [128
+ [127
 
 
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 13.
- [129
+ [128
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 25.
- [130
+ [129
 
 ])
 \openout2 = `sections/evaluation-literature.aux'.
 
  (sections/evaluation-literature.tex
 LaTeX Info: Redefining \HepProcess on input line 7.
-[131
+[130
 
 
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 16.
- [132
+ [131
 
 ])
 \tf@nav=\write8
@@ -2422,8 +2417,8 @@ Package logreq Info: Writing requests to 'index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32850 strings out of 492970
- 619404 string characters out of 3135855
+ 32848 strings out of 492970
+ 619383 string characters out of 3135855
  1231423 words of memory out of 3000000
  35506 multiletter control sequences out of 15000+200000
  21112 words of font info for 73 fonts, out of 3000000 for 9000
@@ -2445,9 +2440,9 @@ sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on index.pdf (132 pages, 574606 bytes).
+Output written on index.pdf (131 pages, 573208 bytes).
 PDF statistics:
- 871 PDF objects out of 1000 (max. 8388607)
- 276 named destinations out of 1000 (max. 500000)
+ 866 PDF objects out of 1000 (max. 8388607)
+ 274 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
