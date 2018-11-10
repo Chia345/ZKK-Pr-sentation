@@ -25,19 +25,29 @@ gemischt =[True, "String", 3]
 \end{frame}
 
 \begin{frame}[fragile]{Einfacher Zugriff auf Elemente}
-\begin{itemize}
-	\item Stelle(index) wird benötigt	
-\end{itemize}
 \begin{lstlisting}
 zahlen = [1, 2, 3, 4, 5, 6]
-
-#Speichert den Inhalt der 2.Position in pos2
-pos2 = zahlen[1]
-
-#Speichert in die Liste an 2.Position die Zahl 99
-zahlen[1] = 99
-#aktualisierte Liste: [1, 99, 3, 4, 5, 6]
 \end{lstlisting}
+Ein Element aus der Liste lesen
+\begin{lstlisting}
+zahlen[Index]
+zb. zahlen[0]
+\end{lstlisting}
+
+Ein Element aus der Liste lesen und in einer Variable speichern
+\begin{lstlisting}
+zahl = zahlen[Index]
+zahl = zahlen[0]
+zahl == 1
+\end{lstlisting}
+
+Speichert den Wert an der entsprechenden Position
+\begin{lstlisting}
+zahlen[Index] = wert
+zahlen[0] = 99
+zahlen == [99, 2, 3, 4, 5, 6]
+\end{lstlisting}
+
 \end{frame}
 
 \begin{frame}[fragile]{Listenfunktionen}
@@ -66,90 +76,82 @@ sum(s) == 3
 \end{itemize}
 \end{frame}
 
+
+
+\begin{frame}[fragile]{Listen}
+zahlen = [5, 9, 2]\\
+zahlen2 = [4, 1, 0]
+\begin{itemize}
+\item Aufgabe 1\\
+''Addiere'' die beiden Listen und speichere das Ergebnis wieder in `zahlen`
+
+\item Aufgabe \\
+Lasse die Länge der Liste `zahlen` ausgeben. 
+
+\item Aufgabe \\
+Lasse das Minimum der Liste `zahlen` ausgeben
+
+\item Aufgabe \\
+Lasse das Maximum der Liste `zahlen` ausgeben
+
+\item Aufgabe \\
+Lasse die Summe der Werte in der Liste `zahlen` ausgeben
+\end{itemize}
+\end{frame}
+
 \begin{frame}[fragile]{Listenfunktionen}
 Sei s = [1, 2, 3, 4, 5]
 \begin{itemize}
-\item s.append(x)
-\begin{lstlisting}
+	\item s.append(x)
+	\begin{lstlisting}
 s.append(6) => s == [1, 2, 3, 4, 5, 6]
-\end{lstlisting}
-\item s.pop(i)
-\begin{lstlisting}
-s.pop(1) => s == [1, 3, 4, 5, 6] 
-#Besitzt einen Rückgabewert
-\end{lstlisting}
-\item s.remove(x)
-\begin{lstlisting}
+	\end{lstlisting}
+	\item s.remove(x)
+	\begin{lstlisting}
 s.remove(3) => s == [1, 4, 5, 6]
-\end{lstlisting}
-\item s.insert(position, object)
-\begin{lstlisting}
+	\end{lstlisting}
+	\item s.insert(position, object)
+	\begin{lstlisting}
 s.insert(2, 8) => s == [1, 4, 8, 5, 6]
-\end{lstlisting}
+	\end{lstlisting}
 \end{itemize}
 \end{frame}
 
-
-\begin{frame}[fragile]{Mehrdimensionale Listen/ Listen in Listen}
+\begin{frame}[fragile]{Listen}
+liste = [1, ''Passau'', 4, 6, ''Berlin``]
 \begin{itemize}
-	\item Listen innerhalb Listen	
+\item Aufgabe \\
+Füge ''Hamburg'' am Ende der liste1 an und gebe die Liste aus
+
+\item Aufgabe \\
+Entferne ''Berlin'' aus der Liste und gebe die Liste neu aus. 
+
+\item Aufgabe 3\\
+Füge 42 am Index 0 ein. Gebe die Liste erneut aus.
 \end{itemize}
-\begin{lstlisting}
-matrix = [[1, 2], [3, 4]]
-\end{lstlisting}
-Speichert den Inhalt der Position 1 der inneren Liste, die selbst auf Position 0 der {\"a}u{\ss}eren Liste ist in pos2. pos2 == 2
-\begin{lstlisting}
-pos2 = zahlen[0][1]
-\end{lstlisting}
-Speichert 99 an die Stelle [1][0]
-\begin{lstlisting}
-zahlen[1][0] = 99
-#aktualisierte Liste: [[1, 2],[99, 3]]
-\end{lstlisting}
 \end{frame}
 
+\begin{frame}[fragile]{Schleifen über Listen}
+For-Schleifen für Listen
 
-%
-\begin{frame}[fragile]{Wichtige Funktionen}
-Die Liste bietet eine große Anzahl an  Funktionen, die auf ihnen
-ausgeführt werden können.
-
+Bisher:
 \begin{lstlisting}
-liste = ["Grundkurs", "Programmieren", 42, "Pie", 3.14]
-
-liste[2] = 99
-len(liste)
-liste.append("Passau")
-liste.insert(2, "Falke")
-liste.index(3.14)
-liste.remove(3.14)
-sum([1,3,5])
-max([1,3,5])
+for i in range(anfang, ende):
+	....
 \end{lstlisting}
-\end{frame}
 
+$range(anfang, ende)$ kann ersetzt werden durch eine Liste.
+Dh. sobald wir eine Liste haben, können wir mit der for-Schleife einmal die Liste durchgehen
 
-\begin{frame}[fragile]{Listen - Übungen}
-\begin{block}{Aufgabe}
-Versuche zu erraten, was die Ausgabe dieses Programms ist.
-\end{block}
-
+Bsp. 
 \begin{lstlisting}
-liste_a = ["Hallo", "schoenes", "Wetter"]
-liste_b = liste_a
-
-liste_b[1] = "schlechtes"
-
-print(liste_a[0], liste_a[1], liste_a[2])  
+zahlen = [1,4,6]
+for zahl in zahlen:
+print(zahl)
 \end{lstlisting}
-\pause{}
-\begin{exampleblock}{Lösung}
-    \texttt{Hallo schlechtes Wetter}
-\end{exampleblock}
 \end{frame}
 
 \begin{frame}[fragile]{Listen - Übung}
-
 Schreibe ein Programm, das drei Prüfungs-Noten einliest, in einer
 Liste speichert und dir nach jeder Eingabe den Durchschnitt errechnet. 
 \pause{}
