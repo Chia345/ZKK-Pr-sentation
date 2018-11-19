@@ -76,12 +76,12 @@ daten.close()
 
 
 \begin{frame}[fragile]{Dateien lesen und schreiben}
-Das Beispielprogramm liest aus der Datei daten3ein.txt ein, und schreibt in die Daten daten3aus.txt den doppelten Wert jeder einzelnen Zahl aus daten3ein.txt.
+Das Beispielprogramm liest aus der Datei datenein.txt Werte ein, verdoppelt diese und schreibt sie anschließend in die Datei datenaus.txt .
 
 
 \begin{lstlisting}
-daten_ein = open("daten3ein.txt", "r")
-daten_aus = open("daten3aus.txt", "w")
+daten_ein = open("datenein.txt", "r")
+daten_aus = open("datenaus.txt", "w")
 
 for line in daten_ein:
 	for number in line.strip():
