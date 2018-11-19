@@ -2,23 +2,52 @@
 	\begin{itemize}
 		\item Dateien einlesen
 		\item Inhalte bearbeiten
-		\item Umgang mit verschiedenen Dateitypen
+		\item Umgang mit txt
 	\end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]{Dateien lesen und schreiben}
-Um Daten, die unsere Programme ausgeben bzw. benötigen, lesen bzw schreiben zu können brauchen wir eine 
-Möglichkeit, diese zu speichern.
-\pause{}
+Wir können Daten aus einer .txt-Datei einlesen, Inhalte verarbeiten und in einer gleichen oder anderen .txt-Datei wieder ausgeben.
+
+Wichtiges:\\
+ Liest Daten ein.
 \begin{lstlisting}
+daten = open("name.txt", "r")
+\end{lstlisting}
+ Öffnet eine Datei um Daten in sie schreiben zu können
+\begin{lstlisting}
+daten = open("name.txt", "w")
+\end{lstlisting}
+Schließt die Datei 
+\begin{lstlisting}
+daten.close()
+\end{lstlisting}
+
+\end{frame}
+
+
+\begin{frame}[fragile]{Dateien lesen und schreiben}
+ 
+Liest ein und entfernt unnötige Leerzeichen am Ende jeder Datenzeile
+\begin{lstlisting}
+zeilederdatei.rstrip()
+\end{lstlisting}
+
+ Schreibt in eine Datei
+\begin{lstlisting}
+datei.write(Element)
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Dateien lesen und schreiben}
+\begin{lstlisting}
+# öffnet und speichert die Daten.
 daten = open("daten.txt", "r")
 for line in daten:
     print(line.rstrip())
 
 daten.close()
 \end{lstlisting}
-
-\pause{}
 
 \begin{lstlisting}
 zahlen = [1, 2, 3]
@@ -30,11 +59,37 @@ daten.close()
 \end{lstlisting}
 \end{frame}
 
+
+
 \begin{frame}[fragile]{Dateien lesen und schreiben}
-\begin{block}{Aufgabe}
-Baue das Notenprogramm so um, dass die Noten beim Start des Programms aus einer Datei gelesen 
-werden und nach Abschluss der Eingabe wieder dort hinein geschrieben werden.
-\end{block}
+Schreiben geht nahezu analog. Zum Öffnen benutzt man ''w'' (für write) statt ''r''. Daten schreibt man in eine Datei mit der Methode 'write' des Dateiobjektes.
+
+Beispiel:
+\begin{lstlisting}
+zahlen = [1, 2, 3]
+daten = open("daten2.txt", "w")
+for zahl in zahlen:
+	daten.write(str(zahl))
+daten.close()
+\end{lstlisting}
 \end{frame}
 
 
+\begin{frame}[fragile]{Dateien lesen und schreiben}
+Das Beispielprogramm liest aus der Datei daten3ein.txt ein, und schreibt in die Daten daten3aus.txt den doppelten Wert jeder einzelnen Zahl aus daten3ein.txt.
+
+
+\begin{lstlisting}
+daten_ein = open("daten3ein.txt", "r")
+daten_aus = open("daten3aus.txt", "w")
+
+for line in daten_ein:
+	for number in line.strip():
+		daten_aus.write(str(int(number) * 2) +"\n")
+
+datenein.close()
+datenaus.close()
+
+Der String ''\n'' ist ein Zeilenumbruch.
+\end{lstlisting}
+\end{frame}
